@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.7.21)  26 SEP 2014 10:40
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.7.21)  26 SEP 2014 13:02
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -336,7 +336,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.038 seconds
+luaotfload | main : fontloader loaded in 0.032 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -3159,7 +3159,7 @@ File: fig/2012_OSKaonNN.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/2012_OSKaonNN.pdf used on input line 170.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
  [45<./fig/Eta_OSKaon.pdf>]
-Underfull \vbox (badness 8189) has occurred while \output is active []
+Underfull \vbox (badness 2653) has occurred while \output is active []
 
  [46<./fig/2011_OSKaonNN.pdf><./fig/2012_OSKaonNN.pdf>]
 <fig/2011_SSPion.pdf, id=2260, 569.12625pt x 408.52625pt>
@@ -3475,10 +3475,10 @@ Here is how much of LuaTeX's memory you used:
  2131 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 36 kern, 41 attribute, 172 glue_spec, 41 at
 tribute_list, 15 action, 1 write nodes
-   avail lists: 1:79,2:17588,3:1189,4:2688,5:523,6:5676,7:613,8:49,9:807,10:984,
+   avail lists: 1:81,2:17664,3:1188,4:2688,5:527,6:5698,7:604,8:49,9:807,10:984,
 11:523,12:231
  42745 multiletter control sequences out of 65536+600000
- 140 fonts using 42674567 bytes
+ 140 fonts using 42674355 bytes
  70i,21n,60p,1991b,2644s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
 f></usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyr
@@ -3491,7 +3491,7 @@ ocal/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagella-
 math.otf></usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre/texg
 yreheros-bold.otf><</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmmi10.pfb>
-Output written on main.pdf (75 pages, 3906078 bytes).
+Output written on main.pdf (75 pages, 3906316 bytes).
 
 PDF statistics: 3409 PDF objects out of 3580 (max. 8388607)
  2219 compressed objects within 23 object streams
