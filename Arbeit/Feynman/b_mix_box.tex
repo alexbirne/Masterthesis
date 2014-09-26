@@ -1,0 +1,125 @@
+\documentclass{article}
+\usepackage{feynmp}
+\usepackage[pdftex]{graphicx}
+
+\begin{document}
+
+\DeclareGraphicsRule{*}{mps}{*}{}
+\setlength{\unitlength}{1mm}
+\unitlength = 1mm
+
+\begin{fmffile}{feynfigs}
+	\begin{fmfgraph*}(80,50)
+		%vertices
+		\fmfleft{i1,i2,i3}
+		\fmfright{o1,o2,o3}
+		%labels
+		\fmflabel{$\bar{b}$}{i3}
+		\fmflabel{$d$}{i1}
+		\fmflabel{$\bar{d}$}{o1}
+		\fmflabel{$b$}{o3}
+		\fmflabel{$B^0$}{i2}
+		\fmflabel{$\overline{B}^0$}{o2}
+		%lines
+		\fmf{vanilla}{i1,v1} 
+		\fmf{vanilla,tension=.5,label=$u,,c,,t$,l.side=right}{v1,v3}
+		\fmf{vanilla}{v3,o1}
+		\fmf{vanilla}{o3,v4} 
+		\fmf{vanilla,tension=.5,label=$u,,c,,t$,l.side=right}{v4,v2} 
+		\fmf{vanilla}{v2,i3} 
+		\fmf{photon,tension=.2,label=$W$,l.side=left}{v1,v2} 
+		\fmf{photon,tension=.2,label=$W$,l.side=right}{v3,v4} 
+		\fmfdotn{v}{4}
+	\end{fmfgraph*}
+\end{fmffile}
+
+\vspace{2cm}
+
+\begin{fmffile}{fgraph}
+	\begin{fmfgraph*}(80,50)
+		%vertices
+		\fmfleft{i1,i2,i3}
+		\fmfright{o1,o2,o3}
+		%labels
+		\fmflabel{$\bar{b}$}{i1}
+		\fmflabel{$d$}{i3}
+		\fmflabel{$\bar{d}$}{o1}
+		\fmflabel{$b$}{o3}
+		\fmflabel{$B^0$}{i2}
+		\fmflabel{$\overline{B}^0$}{o2}
+		%lines
+		\fmf{vanilla}{i1,v1} 
+		\fmf{vanilla,tension=.2,label=$u,,c,,t$,l.side=right}{v2,v1}
+		\fmf{vanilla}{v3,o1}
+		\fmf{vanilla}{o3,v4} 
+		\fmf{vanilla,tension=.2,label=$u,,c,,t$,l.side=left}{v4,v3} 
+		\fmf{vanilla}{v2,i3} 
+		\fmf{photon,tension=.5,label=$W$,l.side=right}{v4,v2} 
+		\fmf{photon,tension=.5,label=$W$,l.side=right}{v1,v3} 
+		\fmfdotn{v}{4}
+	\end{fmfgraph*}
+\end{fmffile}
+
+\vspace{2cm}
+
+\begin{fmffile}{fb2dpi1}
+	\begin{fmfgraph*}(80,50)
+		\fmfstraight
+		%vertices
+		\fmfleft{i1,i2,i3,s1,s2,s3}
+		\fmfright{o1,x1,o2,o3,x2,o4}
+		%labels
+		\fmflabel{$d$}{i1}
+		\fmflabel{$\bar{b}$}{i3}
+		\fmflabel{$d$}{o1}
+		\fmflabel{$u$}{o4}
+		\fmflabel{$\bar{c}$}{o2}
+		\fmflabel{$\bar{d}$}{o3}
+		\fmflabel{$\pi^+$}{x2}
+		\fmflabel{$D^-$}{x1}
+		\fmflabel{$B^0$}{i2}
+		%lines
+		\fmf{vanilla}{i1,o1}
+		\fmf{vanilla}{i3,v1,o2}
+		\fmf{phantom}{s2,v2}
+		\fmf{phantom, tension=3}{v2,x2}
+		\fmffreeze
+		%inner lines
+		\fmf{vanilla}{o4,v2,o3}
+		\fmf{boson,label=$W^+$}{v1,v2}
+	\end{fmfgraph*}
+\end{fmffile}
+
+\vspace{2cm}
+
+\begin{fmffile}{fb2dpi2}
+	\begin{fmfgraph*}(80,50)
+		\fmfstraight
+		%vertices
+		\fmfleft{i1,i2,i3,s1,s2,s3}
+		\fmfright{o1,x1,o2,o3,x2,o4}
+		%labels
+		\fmflabel{$d$}{i1}
+		\fmflabel{$\bar{b}$}{i3}
+		\fmflabel{$d$}{o1}
+		\fmflabel{$c$}{o4}
+		\fmflabel{$\bar{u}$}{o2}
+		\fmflabel{$\bar{d}$}{o3}
+		\fmflabel{$D^+$}{x2}
+		\fmflabel{$\pi^-$}{x1}
+		\fmflabel{$B^0$}{i2}
+		%lines
+		\fmf{vanilla}{i1,o1}
+		\fmf{vanilla}{i3,v1,o2}
+		\fmf{phantom}{s2,v2}
+		\fmf{phantom, tension=3}{v2,x2}
+		\fmffreeze
+		%inner lines
+		\fmf{vanilla}{o4,v2,o3}
+		\fmf{boson,label=$W^+$}{v1,v2}
+	\end{fmfgraph*}
+\end{fmffile}
+
+
+\end{document}
+

@@ -1,0 +1,806 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{none}{none}
+    \entry{dmd_messung}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{Aaij}{A\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{Aaij}{A\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \strng{fullhash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Measurement of the $B^0$--$\bar B^0$ oscillation frequency $\Delta m_d$ with the decays $B^0 \to D^- \pi^+$ and $B^0 \to J\ \psi K^{*0}$}}
+      \field{journaltitle}{Phys.Lett.}
+      \field{title}{{Measurement of the $B^0$--$\bar B^0$ oscillation frequency $\Delta m_d$ with the decays $B^0 \to D^- \pi^+$ and $B^0 \to J\ \psi K^{*0}$}}
+      \field{volume}{B719}
+      \field{year}{2013}
+      \field{pages}{318\bibrangedash 325}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2013.01.019
+      \endverb
+    \endentry
+    \entry{charm-tagger}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=b428823aaf48418efd7a50bd6da892ae}{Cenci}{C\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=e268697be9a04104b98437719d16a09a}{Jawahery}{J\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b428823aaf48418efd7a50bd6da892ae}{Cenci}{C\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=e268697be9a04104b98437719d16a09a}{Jawahery}{J\bibinitperiod}{A}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {LHCb-INT-2013-YYY}%
+      }
+      \strng{namehash}{43d3e0d5afceb41ebe27c8f868e22bbb}
+      \strng{fullhash}{43d3e0d5afceb41ebe27c8f868e22bbb}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{A new Opposite-Side Flavor Tagger based on Reconstructed Charm Decays}}
+      \field{title}{{A new Opposite-Side Flavor Tagger based on Reconstructed Charm Decays}}
+      \field{year}{2014}
+    \endentry
+    \entry{Perkins:396126}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=f2c6e7d4a1d75f23eadbf939b88725d6}{Perkins}{P\bibinitperiod}{Donald\bibnamedelima Hill}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f2c6e7d4a1d75f23eadbf939b88725d6}{Perkins}{P\bibinitperiod}{Donald\bibnamedelima Hill}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Univ. Press}%
+      }
+      \strng{namehash}{f2c6e7d4a1d75f23eadbf939b88725d6}
+      \strng{fullhash}{f2c6e7d4a1d75f23eadbf939b88725d6}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Introduction to high-energy physics; 4th ed.}}
+      \field{title}{{Introduction to high-energy physics; 4th ed.}}
+      \field{year}{2000}
+    \endentry
+    \entry{Peskin:257493}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=86034647b9b7ece477cb912547022dc1}{Peskin}{P\bibinitperiod}{Michael\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=8366b7c34a8ba0e01aec907687a02cff}{Schroeder}{S\bibinitperiod}{Daniel\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=86034647b9b7ece477cb912547022dc1}{Peskin}{P\bibinitperiod}{Michael\bibnamedelima E}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=8366b7c34a8ba0e01aec907687a02cff}{Schroeder}{S\bibinitperiod}{Daniel\bibnamedelima V}{D\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Boulder, CO}%
+      }
+      \list{publisher}{1}{%
+        {Westview}%
+      }
+      \strng{namehash}{2e68628d2c4fbe3a9a69d5913fbf96f8}
+      \strng{fullhash}{2e68628d2c4fbe3a9a69d5913fbf96f8}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{An Introduction to Quantum Field Theory; 1995 ed.}}
+      \field{note}{Includes exercises}
+      \field{title}{{An Introduction to Quantum Field Theory; 1995 ed.}}
+      \field{year}{1995}
+    \endentry
+    \entry{Bigi:1295518}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=11228a53337bf265ddf1ee224d7d5573}{Bigi}{B\bibinitperiod}{Ikaros\bibnamedelima I}{I\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=167e8d45697c171c065b42001799b09f}{Sanda}{S\bibinitperiod}{A\bibnamedelima I}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=11228a53337bf265ddf1ee224d7d5573}{Bigi}{B\bibinitperiod}{Ikaros\bibnamedelima I}{I\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=167e8d45697c171c065b42001799b09f}{Sanda}{S\bibinitperiod}{A\bibnamedelima I}{A\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Univ. Press}%
+      }
+      \strng{namehash}{f4140ff16c20cb5f91a7917c75e062d6}
+      \strng{fullhash}{f4140ff16c20cb5f91a7917c75e062d6}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{CP violation; 2nd ed.}}
+      \field{series}{Cambridge monographs on particle physics, nuclear physics, and cosmology}
+      \field{title}{{CP violation; 2nd ed.}}
+      \field{year}{2009}
+    \endentry
+    \entry{Branco:396964}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=0c2cbdf93374d6d75a1e8c97a23acc92}{Branco}{B\bibinitperiod}{Gustavo\bibnamedelima Castelo}{G\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=265178a40e52cccaace4e25c621d2c27}{Lavoura}{L\bibinitperiod}{Luis}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9db313e96aa0869c3da686cd8fb03e13}{Silva}{S\bibinitperiod}{Joao\bibnamedelima Paulo}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0c2cbdf93374d6d75a1e8c97a23acc92}{Branco}{B\bibinitperiod}{Gustavo\bibnamedelima Castelo}{G\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=265178a40e52cccaace4e25c621d2c27}{Lavoura}{L\bibinitperiod}{Luis}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9db313e96aa0869c3da686cd8fb03e13}{Silva}{S\bibinitperiod}{Joao\bibnamedelima Paulo}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{82aedb395a51ad00ea7726488abe404c}
+      \strng{fullhash}{82aedb395a51ad00ea7726488abe404c}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{CP violation}}
+      \field{series}{Internat. Ser. Mono. Phys.}
+      \field{title}{{CP violation}}
+      \field{year}{1999}
+    \endentry
+    \entry{SM_teilchen}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=e752b1baf2c73edec65d3a4e2d121b4b}{{Weltmaschine}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e752b1baf2c73edec65d3a4e2d121b4b}{{Weltmaschine}}{W\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{e752b1baf2c73edec65d3a4e2d121b4b}
+      \strng{fullhash}{e752b1baf2c73edec65d3a4e2d121b4b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.weltmaschine.de/physik/standardmodell_der_teilchenphysik/
+      \endverb
+    \endentry
+    \entry{PDG-2012}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=d00639d947779247d336dfc89f3e6e74}{Beringer}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=d00639d947779247d336dfc89f3e6e74}{Beringer}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ea95ac791158770196a134ecc0c2a651}
+      \strng{fullhash}{ea95ac791158770196a134ecc0c2a651}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Review of Particle Physics}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{Review of Particle Physics}
+      \field{volume}{86}
+      \field{year}{2012}
+      \field{pages}{010001}
+    \endentry
+    \entry{ckm_param}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=fb0a0f70434cf60722b8687c549c27bc}{Wolfenstein}{W\bibinitperiod}{Lincoln}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fb0a0f70434cf60722b8687c549c27bc}{Wolfenstein}{W\bibinitperiod}{Lincoln}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fb0a0f70434cf60722b8687c549c27bc}
+      \strng{fullhash}{fb0a0f70434cf60722b8687c549c27bc}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{Parametrization of the Kobayashi-Maskawa Matrix}
+      \field{issue}{21}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Parametrization of the Kobayashi-Maskawa Matrix}
+      \field{volume}{51}
+      \field{year}{1983}
+      \field{pages}{1945\bibrangedash 1947}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.51.1945
+      \endverb
+    \endentry
+    \entry{higgs_found}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=7773e2d631b632e1abd826d029173e41}{Chatrchyan}{C\bibinitperiod}{Serguei}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=7773e2d631b632e1abd826d029173e41}{Chatrchyan}{C\bibinitperiod}{Serguei}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{fullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{A New Boson with a Mass of 125 GeV Observed with the CMS Experiment at the Large Hadron Collider}}
+      \field{journaltitle}{Science}
+      \field{title}{{A New Boson with a Mass of 125 GeV Observed with the CMS Experiment at the Large Hadron Collider}}
+      \field{volume}{338}
+      \field{year}{2012}
+      \field{pages}{1569\bibrangedash 1575}
+      \verb{doi}
+      \verb 10.1126/science.1230816
+      \endverb
+    \endentry
+    \entry{higgs_atlas}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{Aad}{A\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{Aad}{A\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{fullhash}{f0806a61a21762c45bb17c53a0517ffd}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC}}
+      \field{journaltitle}{Phys.Lett.}
+      \field{title}{{Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC}}
+      \field{volume}{B716}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 29}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2012.08.020
+      \endverb
+    \endentry
+    \entry{ckm-fitter}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=b453e0d9823035ccea102c10321bbcf2}{{The\bibnamedelimb CKM\bibnamedelimb Fitter\bibnamedelimb Group}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b453e0d9823035ccea102c10321bbcf2}{{The\bibnamedelimb CKM\bibnamedelimb Fitter\bibnamedelimb Group}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{b453e0d9823035ccea102c10321bbcf2}
+      \strng{fullhash}{b453e0d9823035ccea102c10321bbcf2}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://ckmfitter.in2p3.fr/www/html/ckm_main.html
+      \endverb
+    \endentry
+    \entry{Alves:2008zz}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=fb0ef5f0687f618fc2cc56da4ff90fd0}{Alves}{A\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{A.\bibnamedelimi Augusto}{A\bibinitperiod\bibinitdelim A\bibinitperiod}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=fb0ef5f0687f618fc2cc56da4ff90fd0}{Alves}{A\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{A.\bibnamedelimi Augusto}{A\bibinitperiod\bibinitdelim A\bibinitperiod}}%
+      }
+      \strng{namehash}{936185a5c214f5928b582e105171c97d}
+      \strng{fullhash}{936185a5c214f5928b582e105171c97d}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{The LHCb Detector at the LHC}}
+      \field{journaltitle}{JINST}
+      \field{title}{{The LHCb Detector at the LHC}}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{S08005}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/S08005
+      \endverb
+    \endentry
+    \entry{cern_scheme}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=a3356b40a9caaeb9613ae294e943ab37}{{Cern\bibnamedelimb Technology\bibnamedelimb Departement\bibnamedelimb Web\bibnamedelimb Page}}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a3356b40a9caaeb9613ae294e943ab37}{{Cern\bibnamedelimb Technology\bibnamedelimb Departement\bibnamedelimb Web\bibnamedelimb Page}}{C\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{a3356b40a9caaeb9613ae294e943ab37}
+      \strng{fullhash}{a3356b40a9caaeb9613ae294e943ab37}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://te-epc-lpc.web.cern.ch/te-epc-lpc/machines/pagesources/Cern-Accelerator-Complex.jpg
+      \endverb
+    \endentry
+    \entry{lhc_design}{book}{}
+      \name{labelname}{7}{}{%
+        {{hash=8f22727b74c96db9ed8b8750aa4f51e4}{Brüning}{B\bibinitperiod}{Oliver\bibnamedelima Sim}{O\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=27c0d70e2ccc0d27aad2e650cc1a8f50}{Collier}{C\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=2582fc5d66afe2e9d4441336bf6f8fd5}{Lebrun}{L\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=5989faab9323b87eba26b48446d8993d}{Myers}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=004c382fdaca31e6f614dceccc6c4763}{Ostojic}{O\bibinitperiod}{Ranko}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=859574ed2024b812bcae7c9de5af7895}{Poole}{P\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f0740a01ded863cafc5c5a8c10fc9e7b}{Proudlock}{P\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=8f22727b74c96db9ed8b8750aa4f51e4}{Brüning}{B\bibinitperiod}{Oliver\bibnamedelima Sim}{O\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=27c0d70e2ccc0d27aad2e650cc1a8f50}{Collier}{C\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=2582fc5d66afe2e9d4441336bf6f8fd5}{Lebrun}{L\bibinitperiod}{P}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=5989faab9323b87eba26b48446d8993d}{Myers}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=004c382fdaca31e6f614dceccc6c4763}{Ostojic}{O\bibinitperiod}{Ranko}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=859574ed2024b812bcae7c9de5af7895}{Poole}{P\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=f0740a01ded863cafc5c5a8c10fc9e7b}{Proudlock}{P\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{18e6ca3c6fbe667cdfa3c1e8942ff24e}
+      \strng{fullhash}{9598f0e018cee9055ac1c3423089a1ae}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{LHC Design Report}}
+      \field{title}{{LHC Design Report}}
+      \field{year}{2004}
+    \endentry
+    \entry{LHC_statistik}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=08d55a14d35254b1ff3d9c77dbe1c385}{{LHC\bibnamedelimb Performance\bibnamedelimb and\bibnamedelimb Statistics}}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=08d55a14d35254b1ff3d9c77dbe1c385}{{LHC\bibnamedelimb Performance\bibnamedelimb and\bibnamedelimb Statistics}}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{08d55a14d35254b1ff3d9c77dbe1c385}
+      \strng{fullhash}{08d55a14d35254b1ff3d9c77dbe1c385}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhc-statistics.web.cern.ch/LHC-Statistics/index.php
+      \endverb
+    \endentry
+    \entry{angle_plot}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=8407dc50fe4b9f076cba39573f670ba1}{{LHCb\bibnamedelimb $\bbbar$-production\bibnamedelimb angle\bibnamedelimb plots}}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=8407dc50fe4b9f076cba39573f670ba1}{{LHCb\bibnamedelimb $\bbbar$-production\bibnamedelimb angle\bibnamedelimb plots}}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{8407dc50fe4b9f076cba39573f670ba1}
+      \strng{fullhash}{8407dc50fe4b9f076cba39573f670ba1}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles.html
+      \endverb
+    \endentry
+    \entry{gaudi}{article}{}
+      \true{morelabelname}
+      \name{labelname}{5}{}{%
+        {{hash=8dcd2eccb6f74c9d459d25fbaaef9be6}{Barrand}{B\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5b4f519fb38b4af857b079b73919ffac}{Belyaev}{B\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=b4f7e34febef6f265504e668425ae1e1}{Binko}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=528e78101cdd61dfef13de5547131730}{Cattaneo}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3884cff408c33dfed60fb742eed2bfeb}{Chytracek}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{5}{}{%
+        {{hash=8dcd2eccb6f74c9d459d25fbaaef9be6}{Barrand}{B\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5b4f519fb38b4af857b079b73919ffac}{Belyaev}{B\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=b4f7e34febef6f265504e668425ae1e1}{Binko}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=528e78101cdd61dfef13de5547131730}{Cattaneo}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3884cff408c33dfed60fb742eed2bfeb}{Chytracek}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f346407abebdedd191a1715c980b9304}
+      \strng{fullhash}{fac99102cefb27257234c7be7ce5bfce}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{GAUDI - A software architecture and framework for building HEP data processing applications}}
+      \field{journaltitle}{Comput.Phys.Commun.}
+      \field{title}{{GAUDI - A software architecture and framework for building HEP data processing applications}}
+      \field{volume}{140}
+      \field{year}{2001}
+      \field{pages}{45\bibrangedash 55}
+      \verb{doi}
+      \verb 10.1016/S0010-4655(01)00254-5
+      \endverb
+    \endentry
+    \entry{moore}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=ce887c6d1f96a58fa0800ab6d1f508c6}{{The\bibnamedelimb MOORE\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ce887c6d1f96a58fa0800ab6d1f508c6}{{The\bibnamedelimb MOORE\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{ce887c6d1f96a58fa0800ab6d1f508c6}
+      \strng{fullhash}{ce887c6d1f96a58fa0800ab6d1f508c6}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/moore/
+      \endverb
+    \endentry
+    \entry{brunel}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=69cce3ec2a126811314d280f1f09ea7f}{{The\bibnamedelimb BRUNEL\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=69cce3ec2a126811314d280f1f09ea7f}{{The\bibnamedelimb BRUNEL\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{69cce3ec2a126811314d280f1f09ea7f}
+      \strng{fullhash}{69cce3ec2a126811314d280f1f09ea7f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/brunel/
+      \endverb
+    \endentry
+    \entry{davinci}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=b8bc4434b202f22dd64818899b4a2997}{{The\bibnamedelimb DAVINCI\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=b8bc4434b202f22dd64818899b4a2997}{{The\bibnamedelimb DAVINCI\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{b8bc4434b202f22dd64818899b4a2997}
+      \strng{fullhash}{b8bc4434b202f22dd64818899b4a2997}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/davinci/
+      \endverb
+    \endentry
+    \entry{root}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=ea2adde5c377cb5e09d14b71935c6f32}{{ROOT}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ea2adde5c377cb5e09d14b71935c6f32}{{ROOT}}{R\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{ea2adde5c377cb5e09d14b71935c6f32}
+      \strng{fullhash}{ea2adde5c377cb5e09d14b71935c6f32}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://root.cern.ch/drupal/
+      \endverb
+    \endentry
+    \entry{roofit}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=2dad8031659fac92a2239cec2fb195f7}{{The\bibnamedelimb RooFit\bibnamedelimb Toolkit\bibnamedelimb for\bibnamedelimb Data\bibnamedelimb Modeling}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=2dad8031659fac92a2239cec2fb195f7}{{The\bibnamedelimb RooFit\bibnamedelimb Toolkit\bibnamedelimb for\bibnamedelimb Data\bibnamedelimb Modeling}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{2dad8031659fac92a2239cec2fb195f7}
+      \strng{fullhash}{2dad8031659fac92a2239cec2fb195f7}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://roofit.sourceforge.net
+      \endverb
+    \endentry
+    \entry{gauss}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=6dc962b82bb42272a17c16ac0d3a0b80}{{The\bibnamedelimb GAUSS\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=6dc962b82bb42272a17c16ac0d3a0b80}{{The\bibnamedelimb GAUSS\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{6dc962b82bb42272a17c16ac0d3a0b80}
+      \strng{fullhash}{6dc962b82bb42272a17c16ac0d3a0b80}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/gauss/
+      \endverb
+    \endentry
+    \entry{evtgen}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=afa3b15c63f34c94668ab13ebcf36691}{Lange}{L\bibinitperiod}{D.J.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=afa3b15c63f34c94668ab13ebcf36691}{Lange}{L\bibinitperiod}{D.J.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{afa3b15c63f34c94668ab13ebcf36691}
+      \strng{fullhash}{afa3b15c63f34c94668ab13ebcf36691}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{The EvtGen particle decay simulation package}}
+      \field{journaltitle}{Nucl.Instrum.Meth.}
+      \field{title}{{The EvtGen particle decay simulation package}}
+      \field{volume}{A462}
+      \field{year}{2001}
+      \field{pages}{152\bibrangedash 155}
+      \verb{doi}
+      \verb 10.1016/S0168-9002(01)00089-4
+      \endverb
+    \endentry
+    \entry{pythia6}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=6e0c7f4b17c5d6cfbd0bda5a38653610}{Sjostrand}{S\bibinitperiod}{Torbjorn}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{Mrenna}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=22c8d2d794480515ec881c3bc6f30d79}{Skands}{S\bibinitperiod}{Peter\bibnamedelima Z.}{P\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6e0c7f4b17c5d6cfbd0bda5a38653610}{Sjostrand}{S\bibinitperiod}{Torbjorn}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{Mrenna}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=22c8d2d794480515ec881c3bc6f30d79}{Skands}{S\bibinitperiod}{Peter\bibnamedelima Z.}{P\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ade87801ea9a6818f72f412b1c7f96ba}
+      \strng{fullhash}{ade87801ea9a6818f72f412b1c7f96ba}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{PYTHIA 6.4 Physics and Manual}}
+      \field{journaltitle}{JHEP}
+      \field{title}{{PYTHIA 6.4 Physics and Manual}}
+      \field{volume}{0605}
+      \field{year}{2006}
+      \field{pages}{026}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2006/05/026
+      \endverb
+    \endentry
+    \entry{pythia8}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=6e0c7f4b17c5d6cfbd0bda5a38653610}{Sjostrand}{S\bibinitperiod}{Torbjorn}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{Mrenna}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=22c8d2d794480515ec881c3bc6f30d79}{Skands}{S\bibinitperiod}{Peter\bibnamedelima Z.}{P\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6e0c7f4b17c5d6cfbd0bda5a38653610}{Sjostrand}{S\bibinitperiod}{Torbjorn}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{Mrenna}{M\bibinitperiod}{Stephen}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=22c8d2d794480515ec881c3bc6f30d79}{Skands}{S\bibinitperiod}{Peter\bibnamedelima Z.}{P\bibinitperiod\bibinitdelim Z\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ade87801ea9a6818f72f412b1c7f96ba}
+      \strng{fullhash}{ade87801ea9a6818f72f412b1c7f96ba}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{A Brief Introduction to PYTHIA 8.1}}
+      \field{journaltitle}{Comput.Phys.Commun.}
+      \field{title}{{A Brief Introduction to PYTHIA 8.1}}
+      \field{volume}{178}
+      \field{year}{2008}
+      \field{pages}{852\bibrangedash 867}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2008.01.036
+      \endverb
+    \endentry
+    \entry{lhcbconf}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=5b4f519fb38b4af857b079b73919ffac}{Belyaev}{B\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=5b4f519fb38b4af857b079b73919ffac}{Belyaev}{B\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0807d74cb7cef23163a48d51b04d9093}
+      \strng{fullhash}{0807d74cb7cef23163a48d51b04d9093}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Handling of the generation of primary events in Gauss, the LHCb simulation framework}}
+      \field{journaltitle}{J.Phys.Conf.Ser.}
+      \field{title}{{Handling of the generation of primary events in Gauss, the LHCb simulation framework}}
+      \field{volume}{331}
+      \field{year}{2011}
+      \field{pages}{032047}
+      \verb{doi}
+      \verb 10.1088/1742-6596/331/3/032047
+      \endverb
+    \endentry
+    \entry{geant1}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=570dff1a6d8890a6e2d7be1b58f73897}{Asai}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=570dff1a6d8890a6e2d7be1b58f73897}{Asai}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{570dff1a6d8890a6e2d7be1b58f73897}
+      \strng{fullhash}{570dff1a6d8890a6e2d7be1b58f73897}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Geant4-a simulation toolkit}}
+      \field{journaltitle}{Trans.Amer.Nucl.Soc.}
+      \field{title}{{Geant4-a simulation toolkit}}
+      \field{volume}{95}
+      \field{year}{2006}
+      \field{pages}{757}
+    \endentry
+    \entry{geant2}{article}{}
+      \true{morelabelname}
+      \name{labelname}{5}{}{%
+        {{hash=532b314185ec3d27a72065c83f52f15d}{Allison}{A\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3882921431bb5e5a3d58b7c2acd0106b}{Amako}{A\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=dea51ae1c65a8a1ec6bfb88c6e8631c3}{Apostolakis}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=13e9e729ac8f856f0b25be19f9f4acaf}{Araujo}{A\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=2d9ef0fdb1ea93a8064c4f3d4bc0a816}{Dubois}{D\bibinitperiod}{P.A.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{5}{}{%
+        {{hash=532b314185ec3d27a72065c83f52f15d}{Allison}{A\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3882921431bb5e5a3d58b7c2acd0106b}{Amako}{A\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=dea51ae1c65a8a1ec6bfb88c6e8631c3}{Apostolakis}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=13e9e729ac8f856f0b25be19f9f4acaf}{Araujo}{A\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=2d9ef0fdb1ea93a8064c4f3d4bc0a816}{Dubois}{D\bibinitperiod}{P.A.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1bb92f74e6cb7bd064a945ad6087a405}
+      \strng{fullhash}{bda0df167a16f9c82d023800c3939a7f}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Geant4 developments and applications}}
+      \field{journaltitle}{IEEE Trans.Nucl.Sci.}
+      \field{title}{{Geant4 developments and applications}}
+      \field{volume}{53}
+      \field{year}{2006}
+      \field{pages}{270}
+      \verb{doi}
+      \verb 10.1109/TNS.2006.869826
+      \endverb
+    \endentry
+    \entry{boole}{booklet}{}
+      \name{labelname}{1}{}{%
+        {{hash=0c0e5dca32d2740bbb09e89e47c91a3b}{{The\bibnamedelimb BOOLE\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=0c0e5dca32d2740bbb09e89e47c91a3b}{{The\bibnamedelimb BOOLE\bibnamedelimb Project}}{T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{0c0e5dca32d2740bbb09e89e47c91a3b}
+      \strng{fullhash}{0c0e5dca32d2740bbb09e89e47c91a3b}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{month}{{August}}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb-release-area.web.cern.ch/LHCb-release-area/DOC/boole/
+      \endverb
+    \endentry
+    \entry{tagging}{thesis}{}
+      \name{labelname}{2}{}{%
+        {{hash=a3de1720320c22998d23ea250db8edad}{Grabalosa}{G\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=43731bb61b42306d86f9c80e237c2606}{Musy}{M\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=a3de1720320c22998d23ea250db8edad}{Grabalosa}{G\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=43731bb61b42306d86f9c80e237c2606}{Musy}{M\bibinitperiod}{Marco}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Barcelona U.}%
+      }
+      \strng{namehash}{1289ba2ce1f8712b84a58745864cd52a}
+      \strng{fullhash}{1289ba2ce1f8712b84a58745864cd52a}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Flavour Tagging developments within the LHCb experiment}}
+      \field{month}{03}
+      \field{note}{Presented 15 May 2012}
+      \field{title}{{Flavour Tagging developments within the LHCb experiment}}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+    \endentry
+    \entry{selektion}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=88301f2986904c2160915c1d4ae4d92f}{Gandini}{G\bibinitperiod}{Paolo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0f94c719047a94ee62fd580b2d673a55}{Stone}{S\bibinitperiod}{Sheldon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=88301f2986904c2160915c1d4ae4d92f}{Gandini}{G\bibinitperiod}{Paolo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0f94c719047a94ee62fd580b2d673a55}{Stone}{S\bibinitperiod}{Sheldon}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {LHCb-ANA-2014-015}%
+      }
+      \strng{namehash}{e908092dded0faa38380b66b789ebab4}
+      \strng{fullhash}{e908092dded0faa38380b66b789ebab4}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Measurement of the $B_s^0$ meson lifetime in the flavour specific hadronic decay $B_s^0\rightarrow D_s^-\pi^+$}}
+      \field{month}{03}
+      \field{title}{{Measurement of the $B_s^0$ meson lifetime in the flavour specific hadronic decay $B_s^0\rightarrow D_s^-\pi^+$}}
+      \field{year}{2014}
+    \endentry
+    \entry{ipatia}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=444f0c0281ec948840c4a741cfd7f5b9}{Santos}{S\bibinitperiod}{Diego\bibnamedelima Martinez}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6c8be92668e47f1bddd756ea5ece6768}{Dupertuis}{D\bibinitperiod}{Frederic}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=444f0c0281ec948840c4a741cfd7f5b9}{Santos}{S\bibinitperiod}{Diego\bibnamedelima Martinez}{D\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=6c8be92668e47f1bddd756ea5ece6768}{Dupertuis}{D\bibinitperiod}{Frederic}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f5926a288fd7645d767a22f906bd74a3}
+      \strng{fullhash}{f5926a288fd7645d767a22f906bd74a3}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Mass distributions marginalized over per-event errors}}
+      \field{journaltitle}{Nucl.Instrum.Meth.}
+      \field{title}{{Mass distributions marginalized over per-event errors}}
+      \field{volume}{A764}
+      \field{year}{2014}
+      \field{pages}{150}
+      \verb{doi}
+      \verb 10.1016/j.nima.2014.06.081
+      \endverb
+    \endentry
+    \entry{splot}{report}{}
+      \name{labelname}{2}{}{%
+        {{hash=0a2f16c62b38f3bb07bdb2ea9a51341b}{Pivk}{P\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=49ee65143e76934c5f986a08d85bd04c}{Le\bibnamedelima Diberder}{L\bibinitperiod\bibinitdelim D\bibinitperiod}{F\bibnamedelima R}{F\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0a2f16c62b38f3bb07bdb2ea9a51341b}{Pivk}{P\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=49ee65143e76934c5f986a08d85bd04c}{Le\bibnamedelima Diberder}{L\bibinitperiod\bibinitdelim D\bibinitperiod}{F\bibnamedelima R}{F\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Paris 11. Lab. Accél. Linéaire}%
+      }
+      \list{location}{1}{%
+        {Orsay}%
+      }
+      \strng{namehash}{e0823fe75a597f724515b024628e78ed}
+      \strng{fullhash}{e0823fe75a597f724515b024628e78ed}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{sPlot: a statistical tool to unfold data distributions}}
+      \field{month}{02}
+      \field{number}{physics/0402083. LAL-2004-07}
+      \field{title}{{sPlot: a statistical tool to unfold data distributions}}
+      \field{type}{techreport}
+      \field{year}{2004}
+    \endentry
+    \entry{Blobel}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=e9a0f10afa5f8acf6e43a8dab360efb8}{Blobel}{B\bibinitperiod}{Volker}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=2d2e393c08e408b016a2db3027e1b766}{Lohrmann}{L\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=e9a0f10afa5f8acf6e43a8dab360efb8}{Blobel}{B\bibinitperiod}{Volker}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=2d2e393c08e408b016a2db3027e1b766}{Lohrmann}{L\bibinitperiod}{Erich}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Stuttgart}%
+      }
+      \list{publisher}{1}{%
+        {Teubner}%
+      }
+      \strng{namehash}{e29aa91dbf106462ef3a351531606e75}
+      \strng{fullhash}{e29aa91dbf106462ef3a351531606e75}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{Statistische und numerische Methoden der Datenanalyse}}
+      \field{series}{Teubner Studienbücher Physik}
+      \field{title}{{Statistische und numerische Methoden der Datenanalyse}}
+      \field{year}{1998}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
