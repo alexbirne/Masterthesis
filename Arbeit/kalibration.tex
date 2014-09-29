@@ -1,12 +1,12 @@
 % !TEX root = main.tex
 \chapter{Kalibrierung verschiedener Tagger}
 
-Im Folgenden Kapitel wird auf die Kalibrierung der unterschiedlichen Tagger eingegangen. Dazu wird zunächst die hier getroffene Auswahl der Tagger diskutiert, um daraufhin die einzelnen Kalibrierungen zunächst der OS Tagger und anschließend der SS Tagger zu betrachten. Anschließend werden die Ergebnisse in den aktuellen Stand des Flavour Taggings eingeordnet und diskutiert.  Zum Abschluss folgt eine Messung der Oszillationsfrequenz $\dmd$, sowie eine Kalibrierung der Standard OS Kombination nach der in Abschnitt \ref{sec:kalibrierungDaten} zusätzlich vorgestellten Methode, die Wahrscheinlichkeiten $P(\bquarkbar)$ zu verwenden.
+Im Folgenden Kapitel wird auf die Kalibrierung der unterschiedlichen Tagger eingegangen. Dazu wird zunächst die hier getroffene Auswahl der Tagger diskutiert, um daraufhin die einzelnen Kalibrierungen der OS Tagger und der SS Tagger zu betrachten. Anschließend werden die Ergebnisse in den aktuellen Stand des Flavour Taggings eingeordnet und diskutiert.  Zum Abschluss folgt eine Messung der Oszillationsfrequenz $\dmd$, sowie eine Kalibrierung der Standard OS Kombination nach der in Abschnitt \ref{sec:kalibrierungDaten} vorgestellten Methode, die die Wahrscheinlichkeiten $P(\bquarkbar)$ verwendet.
 
 \section{Auswahl der Tagger}
 
-Im Rahmen dieser Arbeit werden nicht alle bei \lhcb existierenden Tagger im Hinblick ihrer Kalibrierung auf dem Kanal \BdToDpi untersucht. Das Hauptaugenmerk bei der Auswahl liegt auf den Neuentwicklungen, um bei diesen eine ersten, von den Entwicklern unabhängigen Gegenprobe, mit einer unabhängigen Selektion auf dem Kanal $\Bz\rightarrow D^-\pi^+$ durchzuführen. Der hier genannte Kanal ist dabei vor allem für den SS Pion BDT und den SS Proton Tagger von großem Interesse, da beide Algorithmen auf genau diesem entwickelt wurden. Weiter werden der OS Kaon nnet  und der OS Charm als weitere Neuentwicklungen untersucht. Zusätzlich zu den genannten Taggern werden außerdem die Kalibrierungen der Standardkombination der OS Tagger (OS Elektron, OS Myon, OS Kaon, OS Vertex Charge Tagger) und des SS Pion Tagger überprüft. Beide sind bereits in anderen Zerfallskanälen kalibriert worden, daher handelt es sich um eine Gegenprobe der Kalibrierung.\\
-Für einen Überblick über die, bei den einzelnen Taggern, zur Verfügung stehende Statistik, sind die Anzahlen getaggter Signalkandidaten, sowie die gewählten Anzahlen an Kategorien der mistag-Wahrscheinlichkeit $\eta$ der genannten Tagger für die Jahre \num{2011} und \num{2012} in der Tabelle \ref{tab:anzahlen} dargestellt.
+Im Rahmen dieser Arbeit werden nicht alle bei \lhcb existierenden Tagger im Hinblick ihrer Kalibrierung auf dem Kanal \BdToDpi untersucht. Das Hauptaugenmerk bei der Auswahl liegt auf den Neuentwicklungen, um bei diesen eine erste, von den Entwicklern unabhängigen Gegenprobe, mit einer eigenen Selektion auf dem Kanal $\Bz\rightarrow D^-\pi^+$ durchzuführen. Der hier genannte Kanal ist dabei vor allem für den SS Pion BDT und den SS Proton Tagger von großem Interesse, da beide Algorithmen auf genau diesem entwickelt wurden. Weiter werden der OS Kaon nnet  und der OS Charm als weitere Neuentwicklungen untersucht. Zusätzlich zu den genannten Taggern werden außerdem die Kalibrierungen der Standardkombination der OS Tagger (OS Elektron, OS Myon, OS Kaon, OS Vertex Charge Tagger) und des SS Pion Tagger überprüft. Beide sind bereits in anderen Zerfallskanälen kalibriert worden, daher handelt es sich um eine Gegenprobe der Kalibrierung.\\
+Für einen Überblick über die bei den einzelnen Taggern zur Verfügung stehende Statistik, sind die Anzahlen getaggter Signalkandidaten sowie die gewählten Anzahlen an Kategorien der mistag-Wahrscheinlichkeit $\eta$ der genannten Tagger für die Jahre \num{2011} und \num{2012} in der Tabelle \ref{tab:anzahlen} dargestellt.
 \begin{table}[htbp]
 	\centering
 	\caption{Anzahl an Kategorien der mistag-Wahrscheinlichkeit $\eta$ für die einzelnen Tagger für die Jahre \num{2011} und \num{2012}. In Klammern jeweils die Anzahl an getaggten Signalkandidaten.}
@@ -28,11 +28,18 @@ Für einen Überblick über die, bei den einzelnen Taggern, zur Verfügung stehe
 
 \section{Kalibrierung der OS Tagger}
 
-In diesem Abschnitt soll nun zunächst auf die Kalibrierung der OS Tagger eingegangen werden. Das Vorgehen zur Bestimmung der Zerfallszeitakzeptanz wird in alle Kanälen für die Daten beider Jahre gleich gewählt. Zunächst werden Gewichte nach dem \sPlot-Verfahren \cite{splot} berechnet, indem ein Massenfit an alle Kandidaten jedes Jahres gemacht wurde. Mit diesen Gewichten können in dem Datensatz dann die Signal- und einen Untergrundverteilungen getrennt werden. Für die Bestimmung der Akzeptanzparameter wird dann die Lebenszeit auf den Wertmittelwert $\tau=\SI{1{,}519}{ps}$ \cite{PDG-2012} festgesetzt, sodass nur die drei freien Parameter $a_1$, $a_2$ und $a_3$ bleiben. Im späteren zweidimensionalen Fit an Masse und Zeit werden diese Parameter dann auf die gefundenen Werte festgesetzt und die Lebenszeit mitgefittet. Weiterhin hängt die gewählte Anzahl an Kategorien der mistag-Vorhersage $\eta$ von der Anzahl getaggter Ereignisse und der Form der $\eta$-Verteilung für den jeweiligen Tagger ab.
+In diesem Abschnitt wird zunächst auf die Kalibrierung der OS Tagger eingegangen werden. Das Vorgehen zur Bestimmung der Zerfallszeitakzeptanz wird in allen Kanälen für die Daten beider Jahre gleich gewählt. Zunächst werden Gewichte nach dem \sPlot-Verfahren \cite{splot} berechnet, indem ein Massenfit an alle Kandidaten jedes Jahres durchgeführt wurde (Abbildung \ref{fig:fit_sweight}). Mit diesen Gewichten können in dem Datensatz dann die Signal- und Untergrundverteilungen getrennt gewichtet werden. Für die Bestimmung der Akzeptanzparameter wird dann die Lebenszeit auf den Weltmittelwert $\tau=\SI{1{,}519}{ps}$ \cite{PDG-2012} festgesetzt, sodass nur die drei freien Parameter $a_1$, $a_2$ und $a_3$ bleiben. Im späteren zweidimensionalen Fit an Masse und Zeit werden diese Parameter dann auf die gefundenen Werte festgesetzt und die Lebenszeit mitgefittet. Weiterhin hängt die gewählte Anzahl an Kategorien der mistag-Vorhersage $\eta$ von der Anzahl getaggter Ereignisse und der Form der $\eta$-Verteilung für den jeweiligen Tagger ab.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.49\textwidth]{fig/sweight_2011.pdf}
+		\includegraphics[width=0.49\textwidth]{fig/sweight_2012.pdf}
+	\caption{Massenfit zur Bestimmung der Gewichte nach dem \sPlot-Verfahren für Daten des Jahres \num{2011} (links) und \num{2012} (rechts).}
+	\label{fig:fit_sweight} 
+\end{figure} 
 
 \subsection{Standard OS Kombination}\label{sec:OSkalib}
 
-Da die mistag-Wahrscheinlichkeiten für die OS Kombination einen relativ breiten Bereich abdecken und nicht eng beieinander liegen, werden für das Jahr \num{2012} zehn und für das Jahr \num{2011} acht Kategorien der mistag-Vorhersage $\eta$ gewählt. Die zehn Kategorien für das Jahr \num{2012}, in denen jeweils Taggingeffizienzen $\varepsilon$ und true-mistag-Wahrscheinlichkeiten $\omega$ durch den Fit ermittelt werden, sind dabei in Abbildung \ref{fig:eta_trennung} zu sehen. 
+Da die mistag-Wahrscheinlichkeiten für die OS Kombination eine relativ breite Verteilung haben und nicht eng beieinander liegen, werden für das Jahr \num{2012} zehn und für das Jahr \num{2011} acht Kategorien der mistag-Vorhersage $\eta$ gewählt. Die zehn Kategorien für das Jahr \num{2012}, in denen jeweils Taggingeffizienzen $\varepsilon$ und true-mistag-Wahrscheinlichkeiten $\omega$ durch den Fit ermittelt werden, sind dabei in Abbildung \ref{fig:eta_trennung} zu sehen. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/eta_trennung.pdf}
@@ -43,12 +50,12 @@ Der zugehörige lineare Fit an die $(\eta,\omega)$-Paare für das Jahr \num{2012
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/2012_OScomb.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für die Standard OS Kombination auf Daten des Jahres \num{2012}}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für die Standard OS Kombination auf Daten des Jahres \num{2012} auf dem Kanal \BdToDpi.}
 	\label{fig:2012_OScomb} 
 \end{figure}
 \begin{table}[htbp]
 	\centering
-	\caption{Ergebnisse der Kalibrierung des OS Kombination für die Jahre \num{2011} und \num{2012}}
+	\caption{Ergebnisse der Kalibrierung des OS Kombination für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:result_OScomb}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -61,7 +68,7 @@ Der zugehörige lineare Fit an die $(\eta,\omega)$-Paare für das Jahr \num{2012
 \end{table} 
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz der Standard OS Kombination für das Jahr \num{2012}}
+	\caption{Performanz der Standard OS Kombination für das Jahr \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:2012_OScomb}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -82,16 +89,16 @@ Der zugehörige lineare Fit an die $(\eta,\omega)$-Paare für das Jahr \num{2012
    \bottomrule
 	\end{tabular}
 \end{table}
-Man erkennt zunächst, dass der Parameter $p_0$ um \num{3} Standardabweichungen von dem erwarteten $\langle\eta\rangle$ abweicht, der Parameter $p_1$ stimmt im Rahmen seiner Ungenauigkeit gut mit eins überein. Allerdings bestätigen die Datenpunkte die Annahme eines linearen Zusammenhangs zwischen der mistag-Wahrscheinlichkeit $\eta$ und dem true-mistag $\omega$. 
+Man erkennt zunächst, dass der Parameter $p_0$ um \num{3} Standardabweichungen von dem erwarteten $\langle\eta\rangle$ abweicht, der Parameter $p_1$ stimmt im Rahmen seiner Ungenauigkeit gut mit eins überein. Die Datenpunkte bestätigen allerdings die Annahme eines linearen Zusammenhangs zwischen der mistag-Wahrscheinlichkeit $\eta$ und dem true-mistag $\omega$. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/2011_OScomb.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für die Standard OS Kombination auf Daten des Jahres \num{2011}}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für die Standard OS Kombination auf Daten des Jahres \num{2011} auf dem Kanal \BdToDpi.}
 	\label{fig:2011_OScomb} 
 \end{figure} 
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz der Standard OS Kombination für das Jahr \num{2011}}
+	\caption{Performanz der Standard OS Kombination für das Jahr \num{2011} auf dem Kanal \BdToDpi.}
 	\label{tab:2011_OScomb}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -115,18 +122,18 @@ Die Ergebnisse für die Taggingeffizienzen $\varepsilon$ und effektiven Tagginge
 
 \subsection{Der OS Charm Tagger}
 
-Für den OS Charm Tagger erhält man im Jahr \num{2011} eine Taggingeffizienz von $\varepsilon=\SI{3{,}264}{\%}$ und für das Jahr \num{2012} von $\varepsilon=\SI{3{,}304}{\%}$ . Aufgrund der in beiden Jahren relativ geringen Statistik wurde eine minimale Anzahl von fünf Kategorien gewählt, um eine vertretbare Anzahl Datenpunkte für den linearen Fit zu behalten. Die Ergebnisse der linearen Fits sind in Abbildung \ref{fig:fit_OSCharm} und in Tabelle \ref{tab:result_OSCharm} zu sehen.
+Für den OS Charm Tagger erhält man im Jahr \num{2011} eine Taggingeffizienz von $\varepsilon=\SI{3{,}264}{\%}$ und für das Jahr \num{2012} von $\varepsilon=\SI{3{,}304}{\%}$ . Aufgrund der in beiden Jahren relativ geringen Statistik wurde eine minimale Anzahl von fünf Kategorien gewählt, um eine ausreichende Anzahl Datenpunkte für den linearen Fit zu behalten. Die Ergebnisse der linearen Fits sind in Abbildung \ref{fig:fit_OSCharm} und in Tabelle \ref{tab:result_OSCharm} zu sehen.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.49\textwidth]{fig/2011_OSCharm.pdf}
 		\includegraphics[width=0.49\textwidth]{fig/2012_OSCharm.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den OS Charm Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts).}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den OS Charm Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts) auf dem Kanal \BdToDpi.}
 	\label{fig:fit_OSCharm} 
 \end{figure} 
-Für das Jahr \num{2012} liegen beide Parameter des linearen Fits innerhalb einer Standardabweichung in ihren Erwartungen und die Datenpunkte sind sehr linear, sodass der Tagger hier als kalibiert angesehen werden kann. 
+Für das Jahr \num{2012} liegen beide Parameter des linearen Fits innerhalb einer Standardabweichung in der Erwartungen an eine ideale Kalibration und die Datenpunkte passen zur Hypothese eines linearen Zusammenhangs, sodass der Tagger hier als kalibiert angesehen werden kann. 
 \begin{table}[htbp]
 	\centering
-	\caption{Ergebnisse der Kalibrierung des OS Charm Taggers für die Jahre \num{2011} und \num{2012}}
+	\caption{Ergebnisse der Kalibrierung des OS Charm Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:result_OSCharm}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -139,7 +146,7 @@ Für das Jahr \num{2012} liegen beide Parameter des linearen Fits innerhalb eine
 \end{table}
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz des OS Charm Taggers für die Jahre \num{2011} und \num{2012}.}
+	\caption{Performanz des OS Charm Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:performance_OSCharm}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -151,12 +158,12 @@ Für das Jahr \num{2012} liegen beide Parameter des linearen Fits innerhalb eine
   \end{tabular}
 \end{table}
 Die Ergebnisse für das Jahr \num{2011} zeigen eine etwas schlechtere Linearität der $(\eta,\omega)$-Paare, außerdem weicht der Parameter $p_0$ um \num{2{,}7} Standardabweichungen von dem erwarteten $\langle\eta\rangle$ ab.\\
-Die Taggingeffizienzen $\varepsilon$ und die effektiven Taggingeffizienzen $\varepsilon D^2$  (Tabelle \ref{tab:performance_OSCharm}) sind für das Jahr \num{2011} in beiden Jahren etwas höher. Insgesamt können auch hier beide Tagger als kalibriert angesehen werden, die Abweichung für den Parameter $p_0$ für das Jahr \num{2011} resultieren dabei wieder aus einer Kalibrierung in einem anderen Zerfallskanal.\\
+Die Taggingeffizienzen $\varepsilon$ und die effektiven Taggingeffizienzen $\varepsilon D^2$  (Tabelle \ref{tab:performance_OSCharm}) sind für das Jahr \num{2011} in beiden Jahren etwas höher. Insgesamt kann auch hier der Tagger für beide Jahre als kalibriert angesehen werden, die Abweichung für den Parameter $p_0$ für das Jahr \num{2011} resultieren dabei wieder aus einer Kalibrierung in einem anderen Zerfallskanal.\\
 Weiterhin wird hier bestätigt, dass der OS Charm Tagger eine geringe Anzahl an getaggten Ereignisse aufweist, jedoch ebenso kleine mistag-Vorhersagen $\omega$ ausgibt. Somit ergibt sich, vor allem wegen der sehr kleinen Taggingeffizienzen $\varepsilon$, eine kleine effektive Taggingeffizienz $\varepsilon D^2$. 
 
 \subsection{Der OS Kaon nnet Tagger}
 
-Ebenso wie bei dem OS Charm Tagger handelt es sich bei dem OS Kaon nnet Tagger um eine Neuentwicklung. Allerdings liefert der OS Kaon nnet Tagger vergleichsweise große Anzahlen an getaggten Ereignissen mit großen mistag-Vorhersagen $\omega$. Für das Jahr \num{2011} erhält man in $\Bz\rightarrow\Dp\pim$ Taggingeffizienzen von $\varepsilon=\SI{45{,}044}{\%}$ und für das Jahr \num{2012} vom $\varepsilon=\SI{46{,}459}{\%}$. Da die mistag-Wahrscheinlichkeiten jedoch bei Werten $>\num{0{,}4}$ liegen (Abbildung \ref{fig:eta_oskaon}), werden trotz der hohen Ereigniszahlen weniger Kategorien als beispielsweise für die OS Standard Kombination gewählt. 
+Ebenso wie bei dem OS Charm Tagger handelt es sich bei dem OS Kaon nnet Tagger um eine Neuentwicklung. Allerdings liefert der OS Kaon nnet Tagger vergleichsweise große Anzahlen an getaggten Ereignissen mit großen mistag-Vorhersagen $\eta$. Für das Jahr \num{2011} erhält man in $\Bz\rightarrow\Dp\pim$ Taggingeffizienzen von $\varepsilon=\SI{45{,}044}{\%}$ und für das Jahr \num{2012} vom $\varepsilon=\SI{46{,}459}{\%}$. Da die mistag-Wahrscheinlichkeiten jedoch bei Werten $>\num{0{,}4}$ liegen (Abbildung \ref{fig:eta_oskaon}), werden trotz der hohen Ereigniszahlen weniger Kategorien als beispielsweise für die OS Standard Kombination gewählt. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/Eta_OSKaon.pdf}
@@ -168,13 +175,13 @@ Die Ergebnisse der linearen Fits sind in Abbildung \ref{fig:fit_OSKaonNN} und Ta
 	\centering
 		\includegraphics[width=0.49\textwidth]{fig/2011_OSKaonNN.pdf}
 		\includegraphics[width=0.49\textwidth]{fig/2012_OSKaonNN.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den OS Kaon nnet Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts).}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den OS Kaon nnet Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts) auf dem Kanal \mbox{\BdToDpi}.}
 	\label{fig:fit_OSKaonNN} 
 \end{figure} 
-Wie bei der Standard OS Kombination, ist auch hier zu sehen, dass die Kalibrierung für das Jahr \num{2012} nicht optimal ist. Beide Parameter $p_0$ und $p_1$ weichen um mehr als \num{2} Standardabweichungen von ihren Erwartungen ab. Allerdings wird auch hier der lineare Zusammenhang zwischen der vorhergesagten mistag-Wahrscheinlichkeit $\eta$ und dem true-mistag $\omega$ bestätigt. Für das Jahr \num{2011} stimmen beide Parameter gut mit ihren Erwartungen überein.  
+Wie bei der Standard OS Kombination, ist auch hier zu sehen, dass die Kalibrierung für das Jahr \num{2012} nicht optimal ist. Beide Parameter $p_0$ und $p_1$ weichen um mehr als \num{2} Standardabweichungen von ihren Erwartungen ab. Auch hier wird der lineare Zusammenhang zwischen der vorhergesagten mistag-Wahrscheinlichkeit $\eta$ und dem true-mistag $\omega$ bestätigt. Für das Jahr \num{2011} stimmen beide Parameter gut mit ihren Erwartungen überein.  
 \begin{table}[htbp]
 	\centering
-	\caption{Ergebnisse der Kalibrierung des OS Kaon nnet Taggers für die Jahre \num{2011} und \num{2012}.}
+	\caption{Ergebnisse der Kalibrierung des OS Kaon nnet Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:result_OSKaonNN}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -187,7 +194,7 @@ Wie bei der Standard OS Kombination, ist auch hier zu sehen, dass die Kalibrieru
 \end{table}
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz des OS Kaon nnet für die Jahre \num{2011} und \num{2012}.}
+	\caption{Performanz des OS Kaon nnet für die Jahre \num{2011} und \num{2012} auf dem Kanal \mbox{\BdToDpi}.}
 	\label{tab:performance_OSKaonNN}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -198,26 +205,26 @@ Wie bei der Standard OS Kombination, ist auch hier zu sehen, dass die Kalibrieru
      \bottomrule
   \end{tabular}
 \end{table}
-Die in Tabelle \ref{tab:performance_OSKaonNN} dargestellten Taggingeffizienzen $\varepsilon$ sind für beide Jahre ähnlich, ebenso die effektiven Taggingeffizienz $\varepsilon D^2$. Zusammenfassend lässt sich der Tagger für das Jahr \num{2011} als gut kalibriert bezeichnen, für das Jahr \num{2012} ist diese Aussage schwieriger. Die größeren Abweichungen für das Jahr \num{2012} haben vermutlich die gleiche Ursache wie bei der Standard OS Kombination. Aus diesem Grund lässt sich für das Jahr \num{2012} sagen, dass der OS Kaon nnet Tagger kalibriert ist, diese Kalibration auf \BdToDpi allerdings nicht ideal ist.   
+Die in Tabelle \ref{tab:performance_OSKaonNN} dargestellten Taggingeffizienzen $\varepsilon$ sind für beide Jahre ähnlich, ebenso die effektiven Taggingeffizienz $\varepsilon D^2$. Zusammenfassend lässt sich der Tagger für das Jahr \num{2011} als gut kalibriert bezeichnen, für das Jahr \num{2012} ist diese Aussage schwieriger. Die größeren Abweichungen für das Jahr \num{2012} haben die gleiche Ursache wie bei der Standard OS Kombination. Aus diesem Grund lässt sich für das Jahr \num{2012} sagen, dass der OS Kaon nnet Tagger kalibriert ist, diese Kalibration auf \BdToDpi allerdings nicht ideal ist.   
 
 \section{Kalibrierung der SS Tagger}
 
-Im Weiteren wird nun auf die Kalibrierung der SS Tagger eingegangen. Die Parameter der Zerfallszeitakzeptanz werden dabei ebenfalls wieder in allen Kanälen mit dem zuvor beschriebenen \sPlot-Verfahren \cite{splot} bestimmt. Da die gesuchten Taggingteilchen für die Tagger auf der Same Side dem Signal deutlich ähnlicher sind, wird bei ihrer Selektion das Signal mit beeinflusst. Dadurch kommt es in den unterschiedlichen Kategorien der mistag-Verteilung $\eta$ zu Unterschieden, die im Fit berücksichtigt werden müssen.
+Im Weiteren wird nun auf die Kalibrierung der SS Tagger eingegangen. Die Parameter der Zerfallszeitakzeptanz werden dabei ebenfalls wieder in allen Kanälen mit dem zuvor beschriebenen \sPlot-Verfahren \cite{splot} bestimmt (Abbildung \ref{fig:fit_sweight}). Bei der Selektion der Taggingteilchen für die Tagger auf der Same Side wird das Signal mit beeinflusst. Dadurch kommt es in den unterschiedlichen Kategorien der mistag-Verteilung $\eta$ zu Unterschieden, die im Fit berücksichtigt werden müssen.
 
 \subsection{Der SS Pion Tagger}
 
-Der schnittbasierten SS Pion Tagger hat für das Jahr \num{2011} eine Taggingeffizienz von $\varepsilon=\SI{14{,}847}{\%}$ und für das Jahr \num{2012} von $\varepsilon=\SI{15{,}146}{\%}$. Für \num{2011} werden sechs und für \num{2012} sieben $\eta$-Kategorien gewählt. In Abbildung \ref{fig:fit_SSPion} und Tabelle \ref{tab:result_SSPion} sind die Ergebnisse der Kalibrierung für die Jahre \num{2011} und \num{2012} dargestellt.
+Der schnittbasierte SS Pion Tagger hat für das Jahr \num{2011} eine Taggingeffizienz von $\varepsilon=\SI{14{,}847}{\%}$ und für das Jahr \num{2012} von $\varepsilon=\SI{15{,}146}{\%}$. Für \num{2011} werden sechs und für \num{2012} sieben $\eta$-Kategorien gewählt. In Abbildung \ref{fig:fit_SSPion} und Tabelle \ref{tab:result_SSPion} sind die Ergebnisse der Kalibrierung für die Jahre \num{2011} und \num{2012} dargestellt.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.49\textwidth]{fig/2011_SSPion.pdf}
 		\includegraphics[width=0.49\textwidth]{fig/2012_SSPion.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den SS Pion Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts).}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den SS Pion Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts) auf dem Kanal \BdToDpi.}
 	\label{fig:fit_SSPion} 
 \end{figure}
 Für das Jahr \num{2012} wird deutlich, dass die Kalibrationsparameter $p_0$ und $p_1$ stark von den Erwartungen einer idealen Kaibrierung abweichen.
 \begin{table}[htbp]
 	\centering
-	\caption{Ergebnisse der Kalibrierung des schnittbasierten SS Pion Taggers für die Jahre \num{2011} und \num{2012}.}
+	\caption{Ergebnisse der Kalibrierung des schnittbasierten SS Pion Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:result_SSPion}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -230,7 +237,7 @@ Für das Jahr \num{2012} wird deutlich, dass die Kalibrationsparameter $p_0$ und
 \end{table}
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz des schnittbasierten SS Pion Taggers für die Jahre \num{2011} und \num{2012}.}
+	\caption{Performanz des schnittbasierten SS Pion Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:performance_SSPion}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -246,17 +253,17 @@ Betrachtet man die Taggingeffizienzen $\varepsilon$ und die effektiven Taggingef
 
 \subsection{Der SS Pion BDT Tagger}
 
-Der SS Pion BDT Tagger ist ebenfalls eine Neuentwicklung und soll zukünftig den schnittbasierten SS Pion Tagger ablösen. Er hat wie der OS Kaon nnet Tagger sehr viele getaggte Ereignisse mit tendenziell großen mistag-Wahrscheinlichkeiten $\eta$. Für das Jahr \num{2011} erhält man eine Taggingeffizienz von $\varepsilon=\SI{56{,}797}{\%}$ und für das Jahr \num{2012} von $\varepsilon=\SI{58{,}147}{\%}$. Die Ergebnisse der Kalibrierung sind in Abbildung \ref{fig:fit_SSPionBDT} und Tabelle \ref{tab:result_SSPionBDT} zu sehen. Da im Jahr \num{2012} die meisten $(\eta,\omega)$-Paare bei hohen mistag-Wahrscheinlichkeiten $\eta$ eng beieinander liegen, nutzt eine größere Anzahl an Kategorien hier nur wenig, weshalb die gleichen Anzahlen wie beim OS Kaon nnet Tagger genutzt wurden.  Die Kalibrierungsparameter weichen beide um mehr als zwei Standardabweichungen von ihren perfekt kalibrierten Werten ab. 
+Der SS Pion BDT Tagger ist ebenfalls eine Neuentwicklung und soll zukünftig den schnittbasierten SS Pion Tagger ablösen. Er hat, wie der OS Kaon nnet Tagger, sehr viele getaggte Ereignisse mit tendenziell großen mistag-Wahrscheinlichkeiten $\eta$. Für das Jahr \num{2011} erhält man eine Taggingeffizienz von $\varepsilon=\SI{56{,}797}{\%}$ und für das Jahr \num{2012} von $\varepsilon=\SI{58{,}147}{\%}$. Die Ergebnisse der Kalibrierung sind in Abbildung \ref{fig:fit_SSPionBDT} und Tabelle \ref{tab:result_SSPionBDT} zu sehen. Da im Jahr \num{2012} die meisten $(\eta,\omega)$-Paare bei hohen mistag-Wahrscheinlichkeiten $\eta$ eng beieinander liegen, wird hier die gleiche Anzahl an Kategorien genutzt wie beim OS Kaon nnet Tagger. Die Kalibrierungsparameter weichen beide um mehr als zwei Standardabweichungen von ihren perfekt kalibrierten Werten ab.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.49\textwidth]{fig/2011_SSPionBDT.pdf}
 		\includegraphics[width=0.49\textwidth]{fig/2012_SSPionBDT.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den SS Pion BDT Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts).}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den SS Pion BDT Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts) auf dem Kanal \BdToDpi.}
 	\label{fig:fit_SSPionBDT} 
 \end{figure}
 \begin{table}[htbp]
 	\centering
-	\caption{Ergebnisse der Kalibrierung des SS Pion BDT Taggers für die Jahr \num{2011} und \num{2012}.}
+	\caption{Ergebnisse der Kalibrierung des SS Pion BDT Taggers für die Jahr \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:result_SSPionBDT}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -267,10 +274,10 @@ Der SS Pion BDT Tagger ist ebenfalls eine Neuentwicklung und soll zukünftig den
 	\bottomrule
   \end{tabular}
 \end{table}
-Ebenso ist für das Jahr \num{2011} erkennbar, dass eine größere Anzahl Kategorien keinen großen Nutzen hätte. Auch sind die Parameter $p_0$ und $p_1$ beide um mehr als zwei Standardabweichungen von ihrem ideal kalibrierten Wert entfernt.
+Ebenso ist für das Jahr \num{2011} erkennbar, dass eine größere Anzahl Kategorien keinen Nutzen hätte. Auch sind die Parameter $p_0$ und $p_1$ beide um mehr als zwei Standardabweichungen von ihrem ideal kalibrierten Wert entfernt.
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz des SS Pion BDT Taggers für die Jahre \num{2011} und \num{2012}.}
+	\caption{Performanz des SS Pion BDT Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:performance_SSPionBDT}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -282,7 +289,7 @@ Ebenso ist für das Jahr \num{2011} erkennbar, dass eine größere Anzahl Katego
 	\end{tabular}
 \end{table}\\
 Insgesamt lässt sich hier zunächst festhalten, dass der Tagger auf beiden Datensätzen sinnvolle Ergebnisse liefert. Dazu kann man hier die Taggingeffizienz $\varepsilon$ und die effektive Taggingeffizienz $\varepsilon D^2$ betrachten (Tabelle \ref{tab:performance_SSPionBDT}), die für beide Jahre ähnlich sind. Außerdem ist wie bei den zuvor untersuchten Taggern die effektive Taggingeffizienz für das Jahr \num{2012} etwas kleiner. Dies resultiert daraus, dass mit der höheren Rate der Datennahme auch die Selektion der Taggingkandidaten schwieriger und fehleranfäliger wird. Das spiegelt sich in höheren true-mistag-Wahrscheinlichkeiten $\omega$ wieder.\\
-Im Vergleich zum schnittbasierten SS Pion Tagger stellt man weiterhin fest, dass der SS Pion BDT Tagger trotz seiner relativ schlechten true-mistag-Wahrscheinlichkeiten $\omega$ insgesamt um etwa \SI{0{,}6}{\%} größere effektive Taggingeffizienzen $\epsilon D^2$ liefert. 
+Im Vergleich zum schnittbasierten SS Pion Tagger stellt man weiterhin fest, dass der SS Pion BDT Tagger trotz seiner relativ schlechten true-mistag-Wahrscheinlichkeiten $\omega$ insgesamt um etwa \num{0{,}6} Prozentpunkte größere effektive Taggingeffizienzen $\epsilon D^2$ liefert. 
 
 \subsection{Der SS Proton Tagger}
 
@@ -291,13 +298,13 @@ Für den SS Proton Tagger erhält man im Jahr \num{2011} eine Taggingeffizienz v
 	\centering
 		\includegraphics[width=0.49\textwidth]{fig/2011_SSProton.pdf}
 		\includegraphics[width=0.49\textwidth]{fig/2012_SSProton.pdf}
-	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den SS Proton Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts).}
+	\caption{Fit des linearen Zusammenhangs an die $(\eta,\omega)$-Paare für den SS Proton Tagger auf Daten des Jahres \num{2011} (links) und \num{2012} (rechts) auf dem Kanal \BdToDpi.}
 	\label{fig:fit_SSProton} 
 \end{figure}
 während die Abweichungen von der idealen Kalibrierung für das Jahr \num{2011}, aufgrund der größeren statistischen Unsicherheiten auf die Parameter $p_0$ und $p_1$, weniger signifikant sind.
 \begin{table}[htbp]
 	\centering
-	\caption{Ergebnisse der Kalibrierung des SS Proton Taggers für die Jahre \num{2011} und \num{2012}.}
+	\caption{Ergebnisse der Kalibrierung des SS Proton Taggers für die Jahre \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:result_SSProton}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -310,7 +317,7 @@ während die Abweichungen von der idealen Kalibrierung für das Jahr \num{2011},
 \end{table}
 \begin{table}[htbp]
 	\centering
-	\caption{Performanz des SS Proton Taggers für die Jahr \num{2011} und \num{2012}.}
+	\caption{Performanz des SS Proton Taggers für die Jahr \num{2011} und \num{2012} auf dem Kanal \BdToDpi.}
 	\label{tab:performance_SSProton}
 	\begin{tabular}{ccccc}
 	\toprule
@@ -325,9 +332,9 @@ Gleich dem SS Pion BDT Tagger liefert der SS Proton Tagger auf beiden Datensätz
 
 \section{Diskussion der Ergebnisse der Kalibrierung}
 
-Bei der Betrachtung der Ergebnisse lässt sich zunächst die Kalibrierung selbst überprüfen. Um diese in Relation zu den Erwartungen zu setzen muss dabei erwähnt werden, dass bei der verwendeten Version der Flavour-Tagging-Software alle etablierten Tagger bereits kalibriert sein sollten. Die Kalibrierungen wurden dabei jedoch auf neutralen Kanälen wie \BdToJPsiKst oder geladenen Kanälen wie \BuToJPsiKp vorgenommen.\\
-Für die Tagger der Opposite Side ist die Kalibrierung unter diesen Bedingungen dabei in fast allen Fällen bestätigt; die Tagger können also in der aktuellen Version der Flavour-Tagging-Software als kalibriert angesehen werden. Einzig die Parameter des OS Kaon nnet weichen auf dem Datensatz aus dem Jahr \num{2012} beide so stark von den Erwartungen eines ideal kalibrierten Taggers ab, dass sich hier bei Analysen die diesen Tagger verwenden Probleme ergeben könnten. Bei den Taggern der Same Side ist zunächst etwas überraschend, dass der SS Pion Tagger auf dem hier untersuchten Kanal in beiden Jahren nicht kalibriert ist, da auch für diesen eine Präkalibration durchgeführt wurde. Allerdings sind bei den Taggern der Same Side auch durchaus größere Unterschiede zu erwarten, weil die Tagger stärker vom Signalzerfall beeinflusst sind. Da es sich bei den beiden auf \BdToDpi entwickelten Taggern, dem SS Pion BDT und dem SS Proton Tagger an dieser Stelle um die ersten unabhängigen Gegenproben handelt, liegt der Fokus hier weniger auf einer idealen Kalibration. Nachdem in der Entwicklung anfangs Probleme auftraten, und beide Tagger nicht wie gewünscht funktionierten, scheinen diese nun behoben worden zu sein. Bei beiden Taggern liefert die Kalibrierung sinnvolle Ergebnisse für die Taggingeffizienz $\varepsilon$ und die effektive Taggingeffizienz $\varepsilon D^2$. Außerdem lässt sich an dieser Stelle ein erster Vergleich zwischen dem SS Pion und dem SS Pion BDT Tagger ziehen. Hier sieht man, dass der SS Pion BDT Tagger in der effektiven Taggingeffizienz $\varepsilon D^2$ einen Zuwachs bringt. Einzig herausfordernd wären hier mögliche größere Korrelationen des SS Pion BDT Taggers gegenüber dem SS Pion Tagger mit anderen Taggern.\\
-Weiterhin lassen sich die Tagger bezüglich ihrer effektiven Taggingeffizienzen $\varepsilon D^2$ vergleichen. Obwohl bei allen Taggern die Taggingeffizienz $\varepsilon$ etwa gleich bleibt, ist hier zu erkennen, dass bis auf den SS Proton hier bei alle Taggern  $\varepsilon D^2$ für die Daten des Jahres \num{2012} im Vergleich zu den Daten des Jahres \num{2011} sinkt (Tabelle \ref{tab:diskussion}). Eine mögliche Ursache ist die höhere instantane Luminosität im Jahr \num{2012}. Durch die größere Anzahl an Protonenkollisionen bei einer einzelnen Strahlkollision ist es für die Taggingalgorithmen schwieriger ihre Taggingteilchen zu finden. Somit verschlechtern sich die Einschätzungen der Tagger, was sich direkt im true-mistag $\omega$ niederschlägt. Auch dieser Effekt, der schlechter werdenden true-mistag-Wahrscheinlichkeiten ist in den Ergebnissen zu erkennen. Einzig die Abweichung im Verhalten des SS Proton Taggers muss noch weiter untersucht werden.
+Bei der Betrachtung der Ergebnisse lässt sich zunächst die Kalibrierung selbst überprüfen. Um diese in Relation zu den Erwartungen zu setzen ist zu beachten, dass bei der verwendeten Version der Flavour-Tagging-Software alle etablierten Tagger bereits kalibriert sein sollten. Die Kalibrierungen wurden dabei jedoch auf neutralen Kanälen wie \BdToJPsiKst oder geladenen Kanälen wie \BuToJPsiKp vorgenommen.\\
+Für die Tagger der Opposite Side ist die Kalibrierung unter diesen Bedingungen dabei in fast allen Fällen bestätigt; die Tagger können also in der aktuellen Version der Flavour-Tagging-Software als kalibriert angesehen werden. Einzig die Parameter des OS Kaon nnet weichen auf dem Datensatz aus dem Jahr \num{2012} beide so stark von den Erwartungen eines ideal kalibrierten Taggers ab, dass sich hier bei Analysen die diesen Tagger verwenden Probleme ergeben könnten. Bei den Taggern der Same Side ist zunächst etwas überraschend, dass der SS Pion Tagger auf dem hier untersuchten Kanal in beiden Jahren nicht kalibriert ist, da auch für diesen eine Präkalibration durchgeführt wurde. Allerdings sind bei den Taggern der Same Side auch durchaus größere Unterschiede zu erwarten, weil die Tagger stärker vom Signalzerfall und seiner Selektion beeinflusst sind. Da es sich bei den beiden auf \BdToDpi entwickelten Taggern, dem SS Pion BDT und dem SS Proton Tagger an dieser Stelle um die ersten unabhängigen Gegenproben handelt, liegt der Fokus hier weniger auf einer idealen Kalibration. Bei beiden Taggern liefert die Kalibrierung sinnvolle Ergebnisse für die Taggingeffizienz $\varepsilon$ und die effektive Taggingeffizienz $\varepsilon D^2$. Außerdem lässt sich an dieser Stelle ein erster Vergleich zwischen dem SS Pion und dem SS Pion BDT Tagger ziehen. Hier sieht man, dass der SS Pion BDT Tagger in der effektiven Taggingeffizienz $\varepsilon D^2$ einen Zuwachs bringt. Einzig herausfordernd wären hier mögliche größere Korrelationen des SS Pion BDT Taggers gegenüber dem SS Pion Tagger mit anderen Taggern.\\
+Weiterhin lassen sich die Tagger bezüglich ihrer effektiven Taggingeffizienzen $\varepsilon D^2$ für die Jahre \num{2011} und \num{2012} vergleichen. Obwohl bei allen Taggern die Taggingeffizienz $\varepsilon$ etwa gleich bleibt, ist hier zu erkennen, dass bis auf den SS Proton hier bei alle Taggern  $\varepsilon D^2$ für die Daten des Jahres \num{2012} im Vergleich zu den Daten des Jahres \num{2011} sinkt (Tabelle \ref{tab:diskussion}). Eine mögliche Ursache ist die höhere instantane Luminosität im Jahr \num{2012}. Durch die größere Anzahl an Protonenkollisionen bei einer einzelnen Strahlkollision ist es für die Taggingalgorithmen schwieriger die Taggingteilchen zu finden. Somit verschlechtern sich die Einschätzungen der Tagger, was sich direkt im true-mistag $\omega$ niederschlägt. Auch dieser Effekt, der schlechter werdenden true-mistag-Wahrscheinlichkeiten ist in den Ergebnissen zu erkennen. Einzig die Abweichung im Verhalten des SS Proton Taggers muss noch weiter untersucht werden.
 \begin{table}[htbp]
 	\centering
 	\caption{Zusammenfassung der Ergebnisse der Taggingeffizienzen $\varepsilon$ und der effektiven Taggingeffizienzen $\varepsilon D^2$ der Kalibrierungen.}
@@ -371,17 +378,17 @@ Im nächsten Schritt wird betrachtet, wie oft beide Tagger jeweils gleiche  oder
 	\end{tabular}
 \end{table}\\
 Man erkennt hier, dass Anzeichen für eine leichte Korrelation vor allem zwischen SS Pion BDT und SS Proton Tagger bestehen, da das Verhältnis $R$ signifikant von \SI{50}{\%} abweicht.\\
-Im Folgenden werden nun Korrelationen zwischen den Verteilungen der mistag-Wahrscheinlichkeiten $\eta$ gegeneinander untersucht. Zum Vergleich ist hier  die Kombination aus SS Pion und SS Pion BDT Tagger für zwei stark korrelierte Tagger und die Kombination aus SS Pion Tagger und der OS Kombination für zwei unkorrelierte Tagger gezeigt. In den Abbildungen \ref{fig:SSp_SSpi}, \ref{fig:SSp_SSpiBDT}, \ref{fig:SSpi_SSpiBDT} und \ref{fig:SSpi_OS} sind die Vergleiche der 2D-mistag-Verteilungen dargestellt. Bei einer starken Korrelation erwartet man, wie für den Vergleich des SS Pion und des SS Pion BDT Taggers zu sehen, diagonale Strukturen. Für die Kombinationen des SS Proton Taggers mit den beiden Pionen Taggern ist aber vor allem eine gleichmäßige Verteilung der mistag-Wahrscheinlichkeiten um eine Häufung in der oberen rechten Eckte der Plots zu erkennen. Die waagerechten und senkrechten Strukturen die teilweise zu sehen sind, deuten nicht auf eine Korrelation, sondern auf spezielle Ausprägungen der einfachen mistag-Verteilungen hin.
+Im Folgenden werden nun Korrelationen zwischen den Verteilungen der mistag-Wahrscheinlichkeiten $\eta$ gegeneinander untersucht. Zum Vergleich ist hier  die Kombination aus SS Pion und SS Pion BDT Tagger für zwei stark korrelierte Tagger und die Kombination aus SS Pion Tagger und der OS Kombination für zwei unkorrelierte Tagger gezeigt. In den Abbildungen \ref{fig:SSp_SSpi}, \ref{fig:SSp_SSpiBDT}, \ref{fig:SSpi_SSpiBDT} und \ref{fig:SSpi_OS} sind die Vergleiche der 2D-mistag-Verteilungen dargestellt. Bei einer starken Korrelation erwartet man, wie für den Vergleich des SS Pion und des SS Pion BDT Taggers zu sehen, diagonale Strukturen. Für die Kombinationen des SS Proton Taggers mit den beiden Pionen Taggern ist aber vor allem eine gleichmäßige Verteilung der mistag-Wahrscheinlichkeiten um eine Häufung in der oberen rechten Eckte der Plots zu erkennen. Die waagerechten und senkrechten Strukturen, die teilweise zu sehen sind, deuten nicht auf eine Korrelation, sondern auf spezielle Ausprägungen der einfachen mistag-Verteilungen hin.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/SSp_SSpi.pdf}
-	\caption{Zweidimensionale Darstellung der $\eta$-Verteilungen des SS Proton und des SS Pion Taggers. Es sind keine diagonalen Strukturen, die auf eine Korrelation schließen lassen, erkennbar.}
+	\caption{Zweidimensionale Darstellung der $\eta$-Verteilungen des SS Proton und des SS Pion Taggers. Es sind keine diagonalen Strukturen, die auf eine Korrelation schließen ließen, erkennbar.}
 	\label{fig:SSp_SSpi} 
 \end{figure}
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/SSp_SSpiBDT.pdf}
-	\caption{Zweidimensionale Darstellung der $\eta$-Verteilungen des SS Proton und des SS Pion BDT Taggers. Es sind keine diagonalen Strukturen, die auf eine Korrelation schließen lassen, erkennbar.}
+	\caption{Zweidimensionale Darstellung der $\eta$-Verteilungen des SS Proton und des SS Pion BDT Taggers. Es sind keine diagonalen Strukturen, die auf eine Korrelation schließen ließen, erkennbar.}
 	\label{fig:SSp_SSpiBDT} 
 \end{figure}
 \begin{figure}[htbp]
@@ -393,7 +400,7 @@ Im Folgenden werden nun Korrelationen zwischen den Verteilungen der mistag-Wahrs
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/SSpi_OS.pdf}
-	\caption{Zweidimensionale Darstellung der $\eta$-Verteilungen der OS Kombination und des SS Pion Taggers. Es sind keine diagonalen Strukturen, die auf eine Korrelation schließen lassen, erkennbar.}
+	\caption{Zweidimensionale Darstellung der $\eta$-Verteilungen der OS Kombination und des SS Pion Taggers. Es sind keine diagonalen Strukturen, die auf eine Korrelation schließen ließen, erkennbar.}
 	\label{fig:SSpi_OS} 
 \end{figure}
 Weiter lässt sich für die Verteilungen der Korrelationskoeffizient nach Pearson \cite{Blobel}
@@ -418,8 +425,8 @@ Man erkennt hier die deutliche Korrelation zwischen den mistag-Verteilungen der 
 
 \section[head={Messung von $\dmd$},tocentry={Messung von $\dmd$}]{Messung von $\mathbf{\dmd}$}
 
-Bei der Kalibrierung der verschiedenen Tagger wird bei der Messung der Mischungsasymmetrie auch immer die Frequenz \dmd der Oszillation der neutralen \Bz-Mesonen gemessen. Da die Frequenz und die Amplitude dieser Asymmetrie nicht miteinander korreliert sind, hat der Parameter \dmd keinen Einfluss auf die bisherigen Messungen und lässt sich als Mischungsfrequenz bestimmen. Da der Parameter \dmd zwischen den einzelnen Kategorien der mistag-Wahrscheinlichkeit geteilt wird, steht in einem einzelnen Fit die gesamte Statistik eines Taggers zur Verfügung.\\
-Da es auf dem Kanal \BdToDpi möglicherweise noch eine offizielle Messung von \dmd geben soll und diese nicht beeinflusst werden soll, wird die hier durchgeführte Messung durch Addition eines unbekannten Offset \enquote{blind} gemacht. Es ist an dieser Stelle also nicht möglich, einen gemessenen Zentralwert zu präsentieren. Allerdings lässt sich durch Betrachtung der in den Abbildungen \ref{fig:dmd_mass}, \ref{fig:dmd_time} und \ref{fig:dmd_asymmetry} dargestellten Massen- und Zeitfits und Mischungsasymmetrie sehen, dass der durchgeführte Fit funktioniert und die weiteren erhaltenen Parameterwerte sinnvolle Ergebnisse liefern sollten. 
+Bei der Kalibrierung der verschiedenen Tagger wird bei der Messung der Mischungsasymmetrie auch immer die Frequenz \dmd der Oszillation der neutralen \Bz-Mesonen gemessen. Da die Frequenz und die Amplitude dieser Asymmetrie nicht miteinander korreliert sind, hat der Parameter \dmd keinen Einfluss auf die bisherigen Kalibrierung der Tagger und lässt sich als Mischungsfrequenz bestimmen. Da der Parameter \dmd zwischen den einzelnen Kategorien der mistag-Wahrscheinlichkeit geteilt wird, steht in einem einzelnen Fit die gesamte Statistik eines Taggers zur Verfügung.\\
+Da es auf dem Kanal \BdToDpi zukünftig noch eine offizielle Messung von \dmd geben kann und diese nicht beeinflusst werden soll, wird die hier durchgeführte Messung durch Addition eines unbekannten Offset \enquote{blind} gemacht. Es ist an dieser Stelle also nicht möglich, einen gemessenen Zentralwert zu präsentieren. Allerdings lässt sich durch Betrachtung der in den Abbildungen \ref{fig:dmd_mass}, \ref{fig:dmd_time} und \ref{fig:dmd_asymmetry} dargestellten Massen- und Zeitfits und Mischungsasymmetrie sehen, dass der durchgeführte Fit funktioniert und die weiteren erhaltenen Parameterwerte sinnvolle Ergebnisse liefern sollten. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.45\textwidth]{fig/mass_OS_2011.pdf}
@@ -441,7 +448,7 @@ Da es auf dem Kanal \BdToDpi möglicherweise noch eine offizielle Messung von \d
 	\caption{Mischungsasymmetrie \eqref{eq:mischung} der \Bz-Mesonen für den \lhcb-Datensatz des Jahres \num{2011} (links) und \num{2012} (rechts) bei Signalkandidaten, die mit der OS Standard Kombination getaggt wurden. Im unteren Bereich der Plots ist die Abweichung der Datenpunkte von der angepassten Funktion in Einheiten der Standardabweichung gezeigt.}
 	\label{fig:dmd_asymmetry} 
 \end{figure} 
-Die statistischen Fehler auf \dmd sind unbeeinflusst von der Addition des unbekannten Offsets und sollen daher an dieser Stelle mit einer vorherigen Messung  auf dem Datensatz von \num{2011} \cite{dmd_messung} verglichen werden. Bei dieser wurden zur Bestimmung von \dmd die Kombination der Standard OS Kombination mit dem SS Pion Tagger verwendet. Diese sollen an dieser Stelle mit den statistischen Fehlern $\sigma_\text{stat}$ bei einer Messung nur mit der Standard OS Kombination verglichen werden, da bereits hier aufgrund der hohen Statistik für das Jahr \num{2012} zu erwarten ist, dass der statistische Fehler kleiner ist. Für diesen Vergleich sind in Tabelle \ref{tab:Reinheit} zunächst die getaggten Signal und Untergrundkandidaten zu sehen, sowie die sich daraus ergebende Reinheit $\frac{N_\text{Sig}}{N_\text{Bkg}}$.
+Die statistischen Unsicherheiten auf \dmd sind unbeeinflusst von der Addition des unbekannten Offsets und sollen daher an dieser Stelle mit einer vorherigen Messung  auf dem Datensatz von \num{2011} \cite{dmd_messung} verglichen werden. Bei dieser wurden zur Bestimmung von \dmd die Kombination der Standard OS Kombination mit dem SS Pion Tagger verwendet. Diese sollen an dieser Stelle mit den statistischen Unsicherheiten $\sigma_\text{stat}$ bei einer Messung nur mit der Standard OS Kombination verglichen werden, da bereits hier aufgrund der hohen Statistik für das Jahr \num{2012} zu erwarten ist, dass die statistische Unsicherheit kleiner ist. Für diesen Vergleich sind in Tabelle \ref{tab:Reinheit} zunächst die getaggten Signal und Untergrundkandidaten zu sehen, sowie die sich daraus ergebende Reinheit $\frac{N_\text{Sig}}{N_\text{Bkg}}$.
 \begin{table}[htbp]
 	\centering
 	\caption{Anzahl an Signal- und Untergrundkandidaten aus der \dmd-Messung aus \cite{dmd_messung} und der hier vorgestellten Analyse. Dabei ist zu beachten, dass in der hier vorgestellten Analyse nur die Standard OS Kombination verwendet wurde, während diese zuvor zusätzlich mit dem SS Pion Tagger kombiniert wurde.}
@@ -458,10 +465,10 @@ Die statistischen Fehler auf \dmd sind unbeeinflusst von der Addition des unbeka
        \bottomrule
 	\end{tabular}
 \end{table}
-Bei dieser erkennt man, dass die aktuelle Selektion für beide Jahre bessere Ergebnisse für die Reinheit liefert. Die Analyse der von der OS Kombination getaggten Signalkandidaten in den \num{2012} aufgenommenen Daten sollte also bereits zu einem kleineren statistischen Fehler führen. Der Vergleich dieser Fehler ist in Tabelle \ref{tab:statFehler} zu sehen und man erkennt, dass die Erwartungen bezüglich einer statistisch größeren Genauigkeit bestätigt werden.
+Bei dieser erkennt man, dass die aktuelle Selektion für beide Jahre bessere Ergebnisse für die Reinheit liefert. Die statistische Unsicherheit in der aktuellen Analyse ist für die Daten des Jahres \num{2011} größer, weil hier nur die OS Kombination verwendet wurde. Die Analyse der von der OS Kombination getaggten Signalkandidaten in den \num{2012} aufgenommenen Daten sollte allerdings bereits zu einer kleineren statistischen Unsicherheit führen. Der Vergleich der Unsicherheiten ist in Tabelle \ref{tab:statFehler} zu sehen und man erkennt, dass die Erwartungen bezüglich einer statistisch größeren Genauigkeit bestätigt werden.
 \begin{table}[htbp]
 	\centering
-	\caption{Statistischer Fehler $\sigma_\text{stat}$ auf die Größe \dmd. In der Analyse aus \num{2012} \cite{dmd_messung} wurde dieser extrahiert aus einer Kombination des SS Pion Taggers mit der OS Kombination. In der aktuellen Analyse wurde nur die OS Kombination verwendet.}
+	\caption{Statistische Unsicherheit $\sigma_\text{stat}$ auf die Größe \dmd. In der Analyse aus \num{2012} \cite{dmd_messung} wurde dieser extrahiert aus einer Kombination des SS Pion Taggers mit der OS Kombination. In der aktuellen Analyse wurde nur die OS Kombination verwendet.}
 	\label{tab:statFehler} 
 	\begin{tabular}{c|c|cccc}
 	\toprule
@@ -486,13 +493,13 @@ Für die Zentralwerte $\widetilde{p_0}$ und $\widetilde{p_1}$ gilt
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/calibration_Bbar.pdf}
-	\caption{Kalibrierung der OS Standard Kombination mit Wahrscheinlichkeiten $P(\bquarkbar)<0{,}5$ für \Bzb-Mesonen.}
+	\caption{Kalibrierung der OS Standard Kombination mit Wahrscheinlichkeiten \mbox{$P(\bquarkbar)<0{,}5$} für \Bzb-Mesonen.}
 	\label{fig:PBgetrennt1} 
 \end{figure} 
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.75\textwidth]{fig/calibration_B.pdf}
-	\caption{Kalibrierung der OS Standard Kombination mit Wahrscheinlichkeiten $P(\bquarkbar)>0{,}5$ für \Bz-Mesonen.}
+	\caption{Kalibrierung der OS Standard Kombination mit Wahrscheinlichkeiten \mbox{$P(\bquarkbar)>0{,}5$} für \Bz-Mesonen.}
 	\label{fig:PBgetrennt2} 
 \end{figure} 
 \begin{table}[htbp]
@@ -512,11 +519,12 @@ Für die Zentralwerte $\widetilde{p_0}$ und $\widetilde{p_1}$ gilt
       \bottomrule
 	\end{tabular}
 \end{table}
-Man sieht, dass die Ergebnisse für die Taggingasymmetrien dabei eindeutig von den Ergebnissen der Gesamtparametrisierung aus der $(\eta,\omega)$-Kalibrierung abweichen. Dies ist hier zu erwarten, da die Taggingasymmetrien für die \enquote{echten} initialen \B-Mesonen definiert sind. Bei der Unterscheidung für die hier gezeigte Kalibrierung, steht jedoch nur die fehlerbehaftete Tagentscheidung zur Verfügung. Dies lässt sich auf Monte Carlo Daten bestätigen, wo der anfängliche Flavour der \B-Mesonen bekannt ist. In Tabelle \ref{tab:mcgetrennt} wurde dazu zunächst eine komplette Kalibrierung mit einem Zeitfit durchgeführt. Aus dieser Kalibrierung erhält man die Parameter $\widetilde{p_0}$, $\widetilde{p_1}$, $\Delta p_0$ und $\Delta p_1$. Außerdem lässt sich die Kalibrierung, wie auf Daten, getrennt nach der Tagentscheidung, für getaggte \Bz- und \Bzb-Mesonen durchführen, um so die Parameter $p_0$, $\overline{p_0}$, $p_1$ und $\overline{p_1}$ zu erhalten. Dabei sieht man wiederum die qualitativ gleichen Unterschiede wie in Tabelle \ref{tab:PBgetrennt}. Als weitere Möglichkeit lässt sich auf Monte-Carlo nun allerdings auch nach dem in Abschnitt \ref{sec:mckalibrierung} beschriebenen Verfahren für \Bz- und \Bzb-Mesonen getrennt kalibrieren, wobei allerdings nicht nach der Tagentscheidung, sondern dem \enquote{wahren} Anfangszustand unterschieden wird.
+Man sieht, dass die Ergebnisse für die Taggingasymmetrien dabei eindeutig von den Ergebnissen der Gesamtparametrisierung aus der $(\eta,\omega)$-Kalibrierung abweichen. Dies ilässt sich erklären, da die Taggingasymmetrien für die \enquote{echten} initialen \B-Mesonen definiert sind. Bei der Unterscheidung für die hier gezeigte Kalibrierung, steht jedoch nur die fehlerbehaftete Tagentscheidung zur Verfügung.\\ 
+Dies lässt sich auf Monte-Carlo Daten bestätigen, wo der anfängliche Flavour der \B-Mesonen bekannt ist. In Tabelle \ref{tab:mcgetrennt} wurde dazu zunächst eine komplette Kalibrierung auf Monte-Carlo mit einem Zeitfit durchgeführt. Aus dieser Kalibrierung erhält man die Parameter $\widetilde{p_0}$, $\widetilde{p_1}$, $\Delta p_0$ und $\Delta p_1$. Außerdem lässt sich, auch auf Monte-Carlo, die Kalibrierung getrennt nach der Tagentscheidung, für getaggte \Bz- und \Bzb-Mesonen durchführen, um so die Parameter $p_0$, $\overline{p_0}$, $p_1$ und $\overline{p_1}$ zu erhalten. Dabei sieht man wiederum die qualitativ gleichen Unterschiede wie in Tabelle \ref{tab:PBgetrennt} auf Daten. Als weitere Möglichkeit lässt sich auf Monte-Carlo nun allerdings auch nach dem in Abschnitt \ref{sec:mckalibrierung} beschriebenen Verfahren für \Bz- und \Bzb-Mesonen getrennt kalibrieren, wobei allerdings nicht nach der Tagentscheidung, sondern dem \enquote{wahren} Anfangszustand unterschieden wird.
 \begin{table}[htbp]
 	\centering
 	\small
-	\caption{Vergleich der linearen Kalibrierungsparameter bei der Beschreibung der Taggingasymmetrie. In der ersten Zeile ist die Größe angegeben, nach der für die Kalibrierung getrennt wurde.}
+	\caption{Vergleich der linearen Kalibrierungsparameter auf Monte-Carlo bei der Beschreibung der Taggingasymmetrie. In der ersten Zeile ist die Größe angegeben, nach der für die Kalibrierung getrennt wurde.}
 	\label{tab:mcgetrennt} 
 	\begin{tabular}{c|ccccc}
 	\toprule
@@ -532,4 +540,6 @@ Man sieht, dass die Ergebnisse für die Taggingasymmetrien dabei eindeutig von d
       \bottomrule
 	\end{tabular}
 \end{table}
-Vergleicht man nun die sich ergebenden Taggingasymmetrien zwischen den beiden getrennten Kalibrierungen jeweils mit der Kalibrierung aus dem Gesamtfit, sieht man, dass die Parameter für die Trennung nach \enquote{wahren} Produktionsflavour eine gute Übereinstimmung zeigt, während bei der Trennung nach der Tagentscheidung $d$ hier ähnliche Effekte wie zuvor zu beobachten sind. 
+Vergleicht man nun die sich ergebenden Taggingasymmetrien zwischen den beiden getrennten Kalibrierungen jeweils mit der Kalibrierung aus dem Gesamtfit, sieht man, dass die Parameter für die Trennung nach \enquote{wahrem} Produktionsflavour eine gute Übereinstimmung zeigen, während bei der Trennung nach der Tagentscheidung $d$ hier ähnliche Effekte wie zuvor zu beobachten sind.\\
+Vorteil der hier vorgestellten Methode wäre eine gleiche Verwendung der Wahrscheinlichkeiten wie die Flavour-Tagging-Software. Diese müsste zur weiteren Verwendung nicht in mistag-Wahrscheinlichkeiten $\eta$ umgerechnet werden. Weiter ist die Trennung zwischen getaggten \Bz- und \Bzb-Mesonen sehr einfach durch einen Schnitt bei $P(\bquarkbar)=0{,}5$ realisierbar. Nachteil ist, dass die Parameter der Taggingasymmetrie $\Delta p_0$ und $\Delta p_1$ nicht durch die einfache Trennung nach dem tag ermittelbar sind. 
+ 

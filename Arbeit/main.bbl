@@ -20,16 +20,14 @@
 \refsection{0}
   \sortlist{none}{none}
     \entry{dmd_messung}{article}{}
-      \true{morelabelname}
       \name{labelname}{1}{}{%
-        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{Aaij}{A\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=f73652bea157de38bd34b558bc960340}{{The\bibnamedelimb \lhcb\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{Aaij}{A\bibinitperiod}{R}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=f73652bea157de38bd34b558bc960340}{{The\bibnamedelimb \lhcb\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{f6fd12d569b0ebd9fecb5596aae83668}
-      \strng{fullhash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \strng{namehash}{f73652bea157de38bd34b558bc960340}
+      \strng{fullhash}{f73652bea157de38bd34b558bc960340}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Measurement of the $B^0$--$\bar B^0$ oscillation frequency $\Delta m_d$ with the decays $B^0 \to D^- \pi^+$ and $B^0 \to J\ \psi K^{*0}$}}
@@ -221,16 +219,14 @@
       \endverb
     \endentry
     \entry{higgs_found}{article}{}
-      \true{morelabelname}
       \name{labelname}{1}{}{%
-        {{hash=7773e2d631b632e1abd826d029173e41}{Chatrchyan}{C\bibinitperiod}{Serguei}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3d17bb90ae0641fff2efd3b3e3dffab8}{{The\bibnamedelimb \cms\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=7773e2d631b632e1abd826d029173e41}{Chatrchyan}{C\bibinitperiod}{Serguei}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=3d17bb90ae0641fff2efd3b3e3dffab8}{{The\bibnamedelimb \cms\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{1641571a4f1b8e722d84b42b64c15189}
-      \strng{fullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{namehash}{3d17bb90ae0641fff2efd3b3e3dffab8}
+      \strng{fullhash}{3d17bb90ae0641fff2efd3b3e3dffab8}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{A New Boson with a Mass of 125 GeV Observed with the CMS Experiment at the Large Hadron Collider}}
@@ -244,16 +240,14 @@
       \endverb
     \endentry
     \entry{higgs_atlas}{article}{}
-      \true{morelabelname}
       \name{labelname}{1}{}{%
-        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{Aad}{A\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=68e8da0c48a4241bf6770d10f72da28d}{{The\bibnamedelimb \atlas\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{Aad}{A\bibinitperiod}{Georges}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=68e8da0c48a4241bf6770d10f72da28d}{{The\bibnamedelimb \atlas\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{f0806a61a21762c45bb17c53a0517ffd}
-      \strng{fullhash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{namehash}{68e8da0c48a4241bf6770d10f72da28d}
+      \strng{fullhash}{68e8da0c48a4241bf6770d10f72da28d}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC}}
@@ -284,16 +278,14 @@
       \endverb
     \endentry
     \entry{Alves:2008zz}{article}{}
-      \true{morelabelname}
       \name{labelname}{1}{}{%
-        {{hash=fb0ef5f0687f618fc2cc56da4ff90fd0}{Alves}{A\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{A.\bibnamedelimi Augusto}{A\bibinitperiod\bibinitdelim A\bibinitperiod}}%
+        {{hash=f73652bea157de38bd34b558bc960340}{{The\bibnamedelimb \lhcb\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=fb0ef5f0687f618fc2cc56da4ff90fd0}{Alves}{A\bibinitperiod}{Jr.}{J\bibinitperiod}{}{}{A.\bibnamedelimi Augusto}{A\bibinitperiod\bibinitdelim A\bibinitperiod}}%
+        {{hash=f73652bea157de38bd34b558bc960340}{{The\bibnamedelimb \lhcb\bibnamedelimb collaboration}}{T\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{936185a5c214f5928b582e105171c97d}
-      \strng{fullhash}{936185a5c214f5928b582e105171c97d}
+      \strng{namehash}{f73652bea157de38bd34b558bc960340}
+      \strng{fullhash}{f73652bea157de38bd34b558bc960340}
       \field{sortinit}{0}
       \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
       \field{labeltitle}{{The LHCb Detector at the LHC}}

@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.7.21)  26 SEP 2014 14:19
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.7.21)  29 SEP 2014 14:08
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -336,7 +336,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.041 seconds
+luaotfload | main : fontloader loaded in 0.030 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -1889,15 +1889,15 @@ f"
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 54.
+(Font)              `operators' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/TexGyrePagellaMath(0)/m/n on input l
-ine 54.
+ine 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 54.
+(Font)              `operators' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/TexGyrePagellaMath(0)/bx/n on input
- line 54.
+ line 56.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
@@ -1962,15 +1962,15 @@ nguage=DFLT;+tlig;+trep;+ssty=1;"
 . 22\font =163840sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 54.
+(Font)              `symbols' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> EU2/TexGyrePagellaMath(1)/m/n on input 
-line 54.
+line 56.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 54.
+(Font)              `symbols' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> EU2/TexGyrePagellaMath(1)/bx/n on input
- line 54.
+ line 56.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
@@ -2025,16 +2025,16 @@ nguage=DFLT;+tlig;+trep;+ssty=1;"
 . \fontdimen 12\font =306708.48sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 54
+(Font)              `largesymbols' in the math version `normal' on input line 56
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> EU2/TexGyrePagellaMath(2)/m/n on input 
-line 54.
+line 56.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 54.
+(Font)              `largesymbols' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> EU2/TexGyrePagellaMath(2)/bx/n on input
- line 54.
+ line 56.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
@@ -2131,31 +2131,31 @@ luatex-hyphen: loading patterns and exceptions for: ngerman (\language31)
 luatex-hyphen: info: no hyphenation exceptions for this language (./Einleitung.
 aux) (./SM.aux) (./lhcb.aux) (./FT.aux) (./data.aux)
 (./kalibration.aux) (./zusammenfassung.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 106.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2193,10 +2193,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 104.
-Package biblatex Info: Reference segment=0 on input line 104.
+Package biblatex Info: Reference section=0 on input line 106.
+Package biblatex Info: Reference segment=0 on input line 106.
 \AtBeginShipoutBox=\box269
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 106.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -2204,13 +2204,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count497
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 106.
+LaTeX Info: Redefining \pageref on input line 106.
+LaTeX Info: Redefining \nameref on input line 106.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
-LaTeX Info: Redefining \microtypecontext on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 106.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2252,34 +2252,39 @@ f"
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 104.
+(Font)              scaled to size 10.95015pt on input line 106.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 104.
+(Font)              scaled to size 8.00012pt on input line 106.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 104.
+(Font)              scaled to size 6.00009pt on input line 106.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 104.
+(Font)              scaled to size 10.94983pt on input line 106.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 104.
+(Font)              scaled to size 7.99988pt on input line 106.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 104.
+(Font)              scaled to size 5.99991pt on input line 106.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f" (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 \c__siunitx_mathtt_int=\count499
 
-(./titlepage.tex
+(./titlepage.tex <tud_logo_cmyk.jpg, id=184, 1412.27625pt x 227.85126pt>
+File: tud_logo_cmyk.jpg Graphic file (type jpg)
+
+<use tud_logo_cmyk.jpg>
+Package pdftex.def Info: tud_logo_cmyk.jpg used on input line 4.
+(pdftex.def)             Requested size: 227.62204pt x 36.72118pt.
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
 "
 luaotfload | load : Lookup/name: "TexGyreHeros" -> "texgyreheros-regular.otf"
@@ -2323,25 +2328,28 @@ luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
 "
 luaotfload | load : Lookup/name: "TexGyreHeros" -> "texgyreheros-regular.otf"
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
-" [1
+"
+luaotfload | load : Lookup/name: "TexGyreHeros" -> "texgyreheros-regular.otf" [
+1
 
 
 
 
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./tud_log
+o_cmyk.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
-Package cleveref Info: loaded `german language definitions on input line 66.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+
+ []
+
+Package cleveref Info: loaded `german language definitions on input line 65.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 64--66
 [][]$[]$
  []
 
@@ -2354,25 +2362,25 @@ luaotfload | load : Lookup/name: "TexGyreHeros" -> "texgyreheros-bold.otf")
 LaTeX Font Info:    Font shape `EU2/TexGyrePagella(0)/m/sl' in size <10.95> not 
 available
 (Font)              Font shape `EU2/TexGyrePagella(0)/m/it' tried instead on inp
-ut line 109.
+ut line 111.
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-italic.otf"
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-italic.otf"
 LuaTeX warning (ext4): destination with the same identifier (name{page.i}) has b
 een already used, duplicate ignored
 <to be read again> 
 \relax 
-l.109   \tableofcontents
+l.111   \tableofcontents
                        [1]LuaTeX warning (ext4): destination with the same ident
 ifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
 \relax 
-l.109   \tableofcontents
+l.111   \tableofcontents
                        [2
 
 
 ]
 luaotfload | load : Lookup/name: "TexGyreHeros" -> "texgyreheros-bold.otf"
-Package tocbasic Info: character protrusion at toc deactivated on input line 109
+Package tocbasic Info: character protrusion at toc deactivated on input line 111
 .
  (./main.toc
 Package cleveref Info: loaded `german language definitions on input line 3.
@@ -2383,29 +2391,29 @@ Package cleveref Info: loaded `german language definitions on input line 5.
  [4] (./Einleitung.tex
 Kapitel 1.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--112
+Underfull \hbox (badness 10000) in paragraph at lines 4--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--112
+Underfull \hbox (badness 10000) in paragraph at lines 4--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--112
+Underfull \hbox (badness 10000) in paragraph at lines 4--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--112
+Underfull \hbox (badness 10000) in paragraph at lines 4--114
 
  []
 
 
-Overfull \hbox (4.19579pt too wide) in paragraph at lines 4--112
+Overfull \hbox (8.43454pt too wide) in paragraph at lines 4--114
 \EU2/TexGyrePagella(0)/m/n/10.95 In die-ser Ar-beit wird die Ka-li-bra-ti-on ve
-r-schie-de-ne Tag-ger auf dem Ka-nal []
+r-schie-de-ner Tag-ger auf dem Ka-nal []
  []
 
 [1
@@ -2421,7 +2429,7 @@ r-schie-de-ne Tag-ger auf dem Ka-nal []
 
 ]
 Kapitel 2.
-<fig/SM_teilchen.pdf, id=284, 282.78015pt x 265.86096pt>
+<fig/SM_teilchen.pdf, id=285, 282.78015pt x 265.86096pt>
 File: fig/SM_teilchen.pdf Graphic file (type pdf)
 
 <use fig/SM_teilchen.pdf>
@@ -2468,11 +2476,6 @@ LaTeX Font Info:    Font shape `EU2/TexGyrePagellaMath(2)/m/n' will be
 (Font)              scaled to size 6.9999pt on input line 47.
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f" [6]
-Overfull \hbox (12.54106pt too wide) in paragraph at lines 75--78
-[]\EU2/TexGyrePagella(0)/m/n/10.95 Man er-kennt, dass die Wahr-schein-lich-keit
- ei-nes an-fäng-li-chen $[]$-Mesons als $[]$-Meson
- []
-
 <fig/B_mixing_1.pdf, id=348, 289.28395pt x 179.84279pt>
 File: fig/B_mixing_1.pdf Graphic file (type pdf)
 
@@ -2526,12 +2529,11 @@ h-ne di-rek-te oder in-di-rek-te $[]$-Verletzung
  []
 
 [8<./fig/B_mixing_1.pdf><./fig/B_mixing_2.pdf>]
-<fig/ckm_fitter.pdf, id=469, 513.51811pt x 263.73663pt>
+<fig/ckm_fitter.pdf, id=469, 511.38805pt x 265.762pt>
 File: fig/ckm_fitter.pdf Graphic file (type pdf)
-
-<use fig/ckm_fitter.pdf>
+ <use fig/ckm_fitter.pdf>
 Package pdftex.def Info: fig/ckm_fitter.pdf used on input line 133.
-(pdftex.def)             Requested size: 252.44473pt x 129.65059pt.
+(pdftex.def)             Requested size: 252.44473pt x 131.1937pt.
 
 Overfull \hbox (5.68202pt too wide) in paragraph at lines 130--141
 [] \EU2/TexGyrePagella(0)/m/n/10.95 Bei ei-ner ver-schwin-den-den kom-ple-xen P
@@ -2543,10 +2545,7 @@ Overfull \hbox (9.05286pt too wide) in paragraph at lines 146--146
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9<./fig/ckm_fitter.pdf>]
+[9<./fig/ckm_fitter.pdf>]
 Overfull \hbox (13.74673pt too wide) in paragraph at lines 152--152
 [][] 
  []
@@ -2561,49 +2560,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 6.
 
-<fig/cern_scheme.pdf, id=506, 574.4833pt x 469.21489pt>
+<fig/cern_scheme.pdf, id=526, 574.4833pt x 469.21489pt>
 File: fig/cern_scheme.pdf Graphic file (type pdf)
 
 <use fig/cern_scheme.pdf>
 Package pdftex.def Info: fig/cern_scheme.pdf used on input line 10.
-(pdftex.def)             Requested size: 271.86493pt x 222.04887pt.
+(pdftex.def)             Requested size: 291.28513pt x 237.91461pt.
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
-"
-Overfull \hbox (11.3716pt too wide) in paragraph at lines 14--18
-\EU2/TexGyrePagella(0)/m/n/10.95 Protonen-Paketen die je-weils [] Pro-to-nen en
-t-hal-ten [[]16[]]. Die An-zahl Protonen-
- []
-
-[11
+" [11
 
 
 
 
 <./fig/cern_scheme.pdf>]
-<fig/angle_plot.pdf, id=533, 569.12625pt x 552.0625pt>
+<fig/angle_plot.pdf, id=552, 569.12625pt x 552.0625pt>
 File: fig/angle_plot.pdf Graphic file (type pdf)
 
 <use fig/angle_plot.pdf>
 Package pdftex.def Info: fig/angle_plot.pdf used on input line 24.
 (pdftex.def)             Requested size: 194.19008pt x 188.37267pt.
- <fig/det_plot.pdf, id=539, 446.83475pt x 286.60294pt>
+ <fig/det_plot.pdf, id=558, 446.83475pt x 286.60294pt>
 File: fig/det_plot.pdf Graphic file (type pdf)
 
 <use fig/det_plot.pdf>
 Package pdftex.def Info: fig/det_plot.pdf used on input line 31.
 (pdftex.def)             Requested size: 310.70532pt x 199.29561pt.
 luaotfload | load : Lookup/name: "TexGyreHeros" -> "texgyreheros-bold.otf" <fig
-/velo.pdf, id=543, 422.27905pt x 323.67516pt>
+/velo.pdf, id=562, 422.27905pt x 323.67516pt>
 File: fig/velo.pdf Graphic file (type pdf)
 
 <use fig/velo.pdf>
 Package pdftex.def Info: fig/velo.pdf used on input line 41.
 (pdftex.def)             Requested size: 271.86493pt x 208.39598pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-[13<./fig/angle_plot.pdf><./fig/det_plot.pdf>] [14<./fig/velo.pdf>]
+ [12] [13<./fig/angle_plot.pdf><./fig/det_plot.pdf>] [14<./fig/velo.pdf>]
 
 Package nicefrac Warning: You used \nicefrac or \unitfrac in text mode
 (nicefrac)                and specified the ``ugly'' option.
@@ -2640,7 +2629,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 56.
 
-<fig/IT.pdf, id=721, 385.468pt x 156.84297pt>
+<fig/IT.pdf, id=742, 385.468pt x 156.84297pt>
 File: fig/IT.pdf Graphic file (type pdf)
  <use fig/IT.pdf>
 Package pdftex.def Info: fig/IT.pdf used on input line 65.
@@ -2689,7 +2678,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 75.
 
-<fig/kalos.pdf, id=735, 411.79156pt x 119.57573pt>
+<fig/kalos.pdf, id=755, 411.79156pt x 119.57573pt>
 File: fig/kalos.pdf Graphic file (type pdf)
  <use fig/kalos.pdf>
 Package pdftex.def Info: fig/kalos.pdf used on input line 79.
@@ -2782,7 +2771,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 
 [17<./fig/kalos.pdf>]
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
-" <fig/software.pdf, id=863, 767.66008pt x 578.83765pt>
+" <fig/software.pdf, id=883, 767.66008pt x 578.83765pt>
 File: fig/software.pdf Graphic file (type pdf)
 
 <use fig/software.pdf>
@@ -2795,15 +2784,12 @@ Package pdftex.def Info: fig/software.pdf used on input line 99.
 
 ]
 Kapitel 4.
-<fig/FT_schema.pdf, id=996, 1363.23758pt x 735.28198pt>
+<fig/FT_schema.pdf, id=1017, 1363.23758pt x 735.28198pt>
 File: fig/FT_schema.pdf Graphic file (type pdf)
 
 <use fig/FT_schema.pdf>
 Package pdftex.def Info: fig/FT_schema.pdf used on input line 7.
 (pdftex.def)             Requested size: 388.38017pt x 209.479pt.
-
-Underfull \vbox (badness 1253) has occurred while \output is active []
-
  [21<./fig/FT_schema.pdf>] [22]
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -2890,7 +2876,7 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 57.
 
-[24] <fig/FThadronisierung.pdf, id=1133, 438.5534pt x 152.83298pt>
+[24] <fig/FThadronisierung.pdf, id=1154, 438.5534pt x 152.83298pt>
 File: fig/FThadronisierung.pdf Graphic file (type pdf)
 
 <use fig/FThadronisierung.pdf>
@@ -2911,10 +2897,11 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 88.
 
-[25]
-Underfull \vbox (badness 4634) has occurred while \output is active []
+[25] [26<./fig/FThadronisierung.pdf>]
+Underfull \vbox (badness 1810) has occurred while \output is active []
 
- [26<./fig/FThadronisierung.pdf>] [27] [28]) [29] (./data.tex [30
+ [27]
+[28]) [29] (./data.tex [30
 
 
 
@@ -2987,13 +2974,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 7.
 
-<fig/B2D-pi+.pdf, id=1359, 279.32306pt x 177.76303pt>
+<fig/B2D-pi+.pdf, id=1379, 279.32306pt x 177.76303pt>
 File: fig/B2D-pi+.pdf Graphic file (type pdf)
  <use fig/B2D-pi+.pdf>
 Package pdftex.def Info: fig/B2D-pi+.pdf used on input line 13.
 (pdftex.def)             Requested size: 174.76988pt x 111.22638pt.
 
-<fig/B2D+pi-.pdf, id=1360, 283.82477pt x 180.16087pt>
+<fig/B2D+pi-.pdf, id=1380, 283.82477pt x 180.16087pt>
 File: fig/B2D+pi-.pdf Graphic file (type pdf)
  <use fig/B2D+pi-.pdf>
 Package pdftex.def Info: fig/B2D+pi-.pdf used on input line 14.
@@ -3020,6 +3007,51 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              by `\mathrm ' on input line 32.
 
 
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 32.
+
+luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-italic.otf"
+luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-italic.otf"
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 37.
+
+luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-italic.otf"
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 38.
+
+
 Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              You should note, that in 1994 font command `\rm' has
 (scrbook)              been defined for compatiblitiy to Script 2.0 only.
@@ -3032,6 +3064,20 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              of `\rm' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 42.
+
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 42.
 
 
 Class scrbook Warning: Usage of deprecated font command `\rm'!
@@ -3047,28 +3093,98 @@ Class scrbook Warning: Usage of deprecated font command `\rm'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrbook)              by `\mathrm ' on input line 50.
 
-<fig/obsMass_Ds1.pdf, id=1365, 569.12625pt x 408.52625pt>
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 50.
+
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 51.
+
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 71.
+
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 72.
+
+
+Class scrbook Warning: Usage of deprecated font command `\it'!
+(scrbook)              You should note, that in 1994 font command `\it' has
+(scrbook)              been defined for compatiblitiy to Script 2.0 only.
+(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrbook)              shouldn't use such commands any longer and within
+(scrbook)              KOMA-Script usage of `\it' is definitely deprecated.
+(scrbook)              See `fntguide.pdf' for more information about
+(scrbook)              recommended font commands.
+(scrbook)              Note also, that KOMA-Script will remove the definition
+(scrbook)              of `\it' anytime until release of about version 3.20.
+(scrbook)              But for now, KOMA-Script will replace deprecated `\it'
+(scrbook)              by `\normalfont \itshape ' on input line 79.
+
+<fig/obsMass_Ds1.pdf, id=1385, 569.12625pt x 408.52625pt>
 File: fig/obsMass_Ds1.pdf Graphic file (type pdf)
 
 <use fig/obsMass_Ds1.pdf>
 Package pdftex.def Info: fig/obsMass_Ds1.pdf used on input line 98.
 (pdftex.def)             Requested size: 174.76988pt x 125.4512pt.
 
-<fig/obsMass_Ds2.pdf, id=1366, 569.12625pt x 408.52625pt>
+<fig/obsMass_Ds2.pdf, id=1386, 569.12625pt x 408.52625pt>
 File: fig/obsMass_Ds2.pdf Graphic file (type pdf)
 
 <use fig/obsMass_Ds2.pdf>
 Package pdftex.def Info: fig/obsMass_Ds2.pdf used on input line 99.
 (pdftex.def)             Requested size: 174.76988pt x 125.4512pt.
 
-<fig/obsMass_lambda1.pdf, id=1367, 569.12625pt x 408.52625pt>
+<fig/obsMass_lambda1.pdf, id=1387, 569.12625pt x 408.52625pt>
 File: fig/obsMass_lambda1.pdf Graphic file (type pdf)
 
 <use fig/obsMass_lambda1.pdf>
 Package pdftex.def Info: fig/obsMass_lambda1.pdf used on input line 105.
 (pdftex.def)             Requested size: 174.76988pt x 125.4512pt.
 
-<fig/obsMass_lambda2.pdf, id=1368, 569.12625pt x 408.52625pt>
+<fig/obsMass_lambda2.pdf, id=1388, 569.12625pt x 408.52625pt>
 File: fig/obsMass_lambda2.pdf Graphic file (type pdf)
 
 <use fig/obsMass_lambda2.pdf>
@@ -3077,14 +3193,14 @@ Package pdftex.def Info: fig/obsMass_lambda2.pdf used on input line 106.
  [31] [32<./fig/B2D-pi+.pdf><./fig/B2D+pi-.pdf>]
 [33<./fig/obsMass_Ds1.pdf><./fig/obsMass_Ds2.pdf>] [34<./fig/obsMass_lambda1.pdf
 ><./fig/obsMass_lambda2.pdf>] [35]
-<fig/akzeptanz.pdf, id=1687, 569.12625pt x 408.52625pt>
+<fig/akzeptanz.pdf, id=1707, 569.12625pt x 408.52625pt>
 File: fig/akzeptanz.pdf Graphic file (type pdf)
 
 <use fig/akzeptanz.pdf>
 Package pdftex.def Info: fig/akzeptanz.pdf used on input line 149.
 (pdftex.def)             Requested size: 174.76988pt x 125.4512pt.
 
-<fig/akzept_expo.pdf, id=1688, 569.12625pt x 408.52625pt>
+<fig/akzept_expo.pdf, id=1708, 569.12625pt x 408.52625pt>
 File: fig/akzept_expo.pdf Graphic file (type pdf)
 
 <use fig/akzept_expo.pdf>
@@ -3102,147 +3218,168 @@ Overfull \hbox (19.72885pt too wide) detected at line 179
 
 ]
 Kapitel 6.
-[39] <fig/eta_trennung.pdf, id=1820, 569.12625pt x 408.52625pt>
+<fig/sweight_2011.pdf, id=1833, 569.12625pt x 554.07pt>
+File: fig/sweight_2011.pdf Graphic file (type pdf)
+
+<use fig/sweight_2011.pdf>
+Package pdftex.def Info: fig/sweight_2011.pdf used on input line 34.
+(pdftex.def)             Requested size: 190.30841pt x 185.27853pt.
+
+<fig/sweight_2012.pdf, id=1834, 569.12625pt x 554.07pt>
+File: fig/sweight_2012.pdf Graphic file (type pdf)
+
+<use fig/sweight_2012.pdf>
+Package pdftex.def Info: fig/sweight_2012.pdf used on input line 35.
+(pdftex.def)             Requested size: 190.30841pt x 185.27853pt.
+luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-italic.otf"
+ [39]
+<fig/eta_trennung.pdf, id=1844, 569.12625pt x 408.52625pt>
 File: fig/eta_trennung.pdf Graphic file (type pdf)
 
 <use fig/eta_trennung.pdf>
-Package pdftex.def Info: fig/eta_trennung.pdf used on input line 38.
+Package pdftex.def Info: fig/eta_trennung.pdf used on input line 45.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/2012_OScomb.pdf, id=1823, 569.12625pt x 408.52625pt>
+<fig/2012_OScomb.pdf, id=1847, 569.12625pt x 408.52625pt>
 File: fig/2012_OScomb.pdf Graphic file (type pdf)
 
 <use fig/2012_OScomb.pdf>
-Package pdftex.def Info: fig/2012_OScomb.pdf used on input line 45.
+Package pdftex.def Info: fig/2012_OScomb.pdf used on input line 52.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/2011_OScomb.pdf, id=1824, 569.12625pt x 408.52625pt>
+<fig/2011_OScomb.pdf, id=1848, 569.12625pt x 408.52625pt>
 File: fig/2011_OScomb.pdf Graphic file (type pdf)
 
 <use fig/2011_OScomb.pdf>
-Package pdftex.def Info: fig/2011_OScomb.pdf used on input line 88.
+Package pdftex.def Info: fig/2011_OScomb.pdf used on input line 95.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
- [40] [41<./fig/eta_trennung.pdf><./fig/2012_OScomb.pdf>] [42<./fig/2011_OScomb.
-pdf>]
-<fig/2011_OSCharm.pdf, id=1988, 569.12625pt x 408.52625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40<./fig/sweight_2011.pdf><./fig/sweight_2012.pdf>] [41<./fig/eta_trennung.pdf
+>] [42<./fig/2012_OScomb.pdf>] [43<./fig/2011_OScomb.pdf>]
+<fig/2011_OSCharm.pdf, id=2111, 569.12625pt x 408.52625pt>
 File: fig/2011_OSCharm.pdf Graphic file (type pdf)
 
 <use fig/2011_OSCharm.pdf>
-Package pdftex.def Info: fig/2011_OSCharm.pdf used on input line 121.
+Package pdftex.def Info: fig/2011_OSCharm.pdf used on input line 128.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
 
-<fig/2012_OSCharm.pdf, id=1989, 569.12625pt x 408.52625pt>
+<fig/2012_OSCharm.pdf, id=2112, 569.12625pt x 408.52625pt>
 File: fig/2012_OSCharm.pdf Graphic file (type pdf)
 
 <use fig/2012_OSCharm.pdf>
-Package pdftex.def Info: fig/2012_OSCharm.pdf used on input line 122.
+Package pdftex.def Info: fig/2012_OSCharm.pdf used on input line 129.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
- [43] [44<./fig/2011_OSCharm.pdf><./fig/2012_OSCharm.pdf>] <fig/Eta_OSKaon.pdf,
- id=2098, 569.12625pt x 408.52625pt>
+ [44<./fig/2011_OSCharm.pdf><./fig/2012_OSCharm.pdf>] <fig/Eta_OSKaon.pdf, id=2
+214, 569.12625pt x 408.52625pt>
 File: fig/Eta_OSKaon.pdf Graphic file (type pdf)
 
 <use fig/Eta_OSKaon.pdf>
-Package pdftex.def Info: fig/Eta_OSKaon.pdf used on input line 162.
+Package pdftex.def Info: fig/Eta_OSKaon.pdf used on input line 169.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/2011_OSKaonNN.pdf, id=2101, 569.12625pt x 408.52625pt>
+<fig/2011_OSKaonNN.pdf, id=2217, 569.12625pt x 408.52625pt>
 File: fig/2011_OSKaonNN.pdf Graphic file (type pdf)
 
 <use fig/2011_OSKaonNN.pdf>
-Package pdftex.def Info: fig/2011_OSKaonNN.pdf used on input line 169.
+Package pdftex.def Info: fig/2011_OSKaonNN.pdf used on input line 176.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
 
-<fig/2012_OSKaonNN.pdf, id=2102, 569.12625pt x 408.52625pt>
+<fig/2012_OSKaonNN.pdf, id=2218, 569.12625pt x 408.52625pt>
 File: fig/2012_OSKaonNN.pdf Graphic file (type pdf)
 
 <use fig/2012_OSKaonNN.pdf>
-Package pdftex.def Info: fig/2012_OSKaonNN.pdf used on input line 170.
+Package pdftex.def Info: fig/2012_OSKaonNN.pdf used on input line 177.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
- [45<./fig/Eta_OSKaon.pdf>]
-Underfull \vbox (badness 2653) has occurred while \output is active []
-
- [46<./fig/2011_OSKaonNN.pdf><./fig/2012_OSKaonNN.pdf>]
-<fig/2011_SSPion.pdf, id=2260, 569.12625pt x 408.52625pt>
+ [45] [46<./fig/Eta_OSKaon.pdf><./fig/2011_OSKaonNN.pdf><./fig/2012_OSKaonNN.pdf
+>]
+<fig/2011_SSPion.pdf, id=2378, 569.12625pt x 408.52625pt>
 File: fig/2011_SSPion.pdf Graphic file (type pdf)
 
 <use fig/2011_SSPion.pdf>
-Package pdftex.def Info: fig/2011_SSPion.pdf used on input line 212.
+Package pdftex.def Info: fig/2011_SSPion.pdf used on input line 219.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
 
-<fig/2012_SSPion.pdf, id=2261, 569.12625pt x 408.52625pt>
+<fig/2012_SSPion.pdf, id=2379, 569.12625pt x 408.52625pt>
 File: fig/2012_SSPion.pdf Graphic file (type pdf)
 
 <use fig/2012_SSPion.pdf>
-Package pdftex.def Info: fig/2012_SSPion.pdf used on input line 213.
+Package pdftex.def Info: fig/2012_SSPion.pdf used on input line 220.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
  [47<./fig/2011_SSPion.pdf><./fig/2012_SSPion.pdf>]
-<fig/2011_SSPionBDT.pdf, id=2365, 569.12625pt x 408.52625pt>
+<fig/2011_SSPionBDT.pdf, id=2482, 569.12625pt x 408.52625pt>
 File: fig/2011_SSPionBDT.pdf Graphic file (type pdf)
 
 <use fig/2011_SSPionBDT.pdf>
-Package pdftex.def Info: fig/2011_SSPionBDT.pdf used on input line 252.
+Package pdftex.def Info: fig/2011_SSPionBDT.pdf used on input line 259.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
 
-<fig/2012_SSPionBDT.pdf, id=2366, 569.12625pt x 408.52625pt>
+<fig/2012_SSPionBDT.pdf, id=2483, 569.12625pt x 408.52625pt>
 File: fig/2012_SSPionBDT.pdf Graphic file (type pdf)
 
 <use fig/2012_SSPionBDT.pdf>
-Package pdftex.def Info: fig/2012_SSPionBDT.pdf used on input line 253.
+Package pdftex.def Info: fig/2012_SSPionBDT.pdf used on input line 260.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
 
-Overfull \hbox (3.75389pt too wide) in paragraph at lines 249--286
+Overfull \hbox (3.75389pt too wide) in paragraph at lines 256--293
 \EU2/TexGyrePagella(0)/m/n/10.95 SS Pi-on BDT Tag-ger trotz sei-ner re-la-tiv s
 chlech-ten true-mistag-Wahrscheinlichkeiten
  []
 
-[48<./fig/2011_SSPionBDT.pdf><./fig/2012_SSPionBDT.pdf>]
-<fig/2011_SSProton.pdf, id=2470, 831.63646pt x 601.09566pt>
+[48] <fig/2011_SSProton.pdf, id=2496, 831.63646pt x 601.09566pt>
 File: fig/2011_SSProton.pdf Graphic file (type pdf)
 
 <use fig/2011_SSProton.pdf>
-Package pdftex.def Info: fig/2011_SSProton.pdf used on input line 292.
+Package pdftex.def Info: fig/2011_SSProton.pdf used on input line 299.
 (pdftex.def)             Requested size: 190.30841pt x 137.55202pt.
 
-<fig/2012_SSProton.pdf, id=2471, 569.12625pt x 408.52625pt>
+<fig/2012_SSProton.pdf, id=2497, 569.12625pt x 408.52625pt>
 File: fig/2012_SSProton.pdf Graphic file (type pdf)
 
 <use fig/2012_SSProton.pdf>
-Package pdftex.def Info: fig/2012_SSProton.pdf used on input line 293.
+Package pdftex.def Info: fig/2012_SSProton.pdf used on input line 300.
 (pdftex.def)             Requested size: 190.30841pt x 136.60934pt.
- [49]
-Overfull \hbox (5.03374pt too wide) in paragraph at lines 335--348
+ [49<./fig/2011_SSPionBDT.pdf><./fig/2012_SSPionBDT.pdf>]
+Overfull \hbox (5.03374pt too wide) in paragraph at lines 342--355
  [][][] 
  []
 
-[50<./fig/2011_SSProton.pdf><./fig/2012_SSProton.pdf>] [51]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50<./fig/2011_SSProton.pdf><./fig/2012_SSProton.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
 "
 luaotfload | load : Lookup/name: "TexGyrePagella" -> "texgyrepagella-regular.otf
 "
-<fig/SSp_SSpi.pdf, id=2602, 569.12625pt x 408.52625pt>
+<fig/SSp_SSpi.pdf, id=2720, 569.12625pt x 408.52625pt>
 File: fig/SSp_SSpi.pdf Graphic file (type pdf)
  <use fig/SSp_SSpi.pdf>
-Package pdftex.def Info: fig/SSp_SSpi.pdf used on input line 377.
+Package pdftex.def Info: fig/SSp_SSpi.pdf used on input line 384.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/SSp_SSpiBDT.pdf, id=2603, 569.12625pt x 408.52625pt>
+<fig/SSp_SSpiBDT.pdf, id=2721, 569.12625pt x 408.52625pt>
 File: fig/SSp_SSpiBDT.pdf Graphic file (type pdf)
 
 <use fig/SSp_SSpiBDT.pdf>
-Package pdftex.def Info: fig/SSp_SSpiBDT.pdf used on input line 383.
+Package pdftex.def Info: fig/SSp_SSpiBDT.pdf used on input line 390.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/SSpi_SSpiBDT.pdf, id=2604, 569.12625pt x 408.52625pt>
+<fig/SSpi_SSpiBDT.pdf, id=2722, 569.12625pt x 408.52625pt>
 File: fig/SSpi_SSpiBDT.pdf Graphic file (type pdf)
 
 <use fig/SSpi_SSpiBDT.pdf>
-Package pdftex.def Info: fig/SSpi_SSpiBDT.pdf used on input line 389.
+Package pdftex.def Info: fig/SSpi_SSpiBDT.pdf used on input line 396.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/SSpi_OS.pdf, id=2605, 569.12625pt x 408.52625pt>
+<fig/SSpi_OS.pdf, id=2723, 569.12625pt x 408.52625pt>
 File: fig/SSpi_OS.pdf Graphic file (type pdf)
  <use fig/SSpi_OS.pdf>
-Package pdftex.def Info: fig/SSpi_OS.pdf used on input line 395.
+Package pdftex.def Info: fig/SSpi_OS.pdf used on input line 402.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
 [52]
@@ -3269,104 +3406,112 @@ f"
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
 f"
 luaotfload | load : Lookup/name: "TexGyrePagellaMath" -> "texgyrepagella-math.ot
-f" [53<./fig/SSp_SSpi.pdf>] [54<./fig/SSp_SSpiBDT.pdf><./fig/SSpi_SSpiBDT.pdf>]
- [55<./fig/SSpi_OS.pdf>]
+f" [53] [54<./fig/SSp_SSpi.pdf><./fig/SSp_SSpiBDT.pdf>] [55<./fig/SSpi_SSpiBDT.p
+df><./fig/SSpi_OS.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 419.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 419.
+(hyperref)                removing `math shift' on input line 426.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 419.
+(hyperref)                removing `subscript' on input line 426.
 
-<fig/mass_OS_2011.pdf, id=2827, 569.12625pt x 554.07pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 426.
+
+<fig/mass_OS_2011.pdf, id=2944, 569.12625pt x 554.07pt>
 File: fig/mass_OS_2011.pdf Graphic file (type pdf)
 
 <use fig/mass_OS_2011.pdf>
-Package pdftex.def Info: fig/mass_OS_2011.pdf used on input line 425.
+Package pdftex.def Info: fig/mass_OS_2011.pdf used on input line 432.
 (pdftex.def)             Requested size: 174.76988pt x 170.14513pt.
 
-<fig/mass_OS_2012.pdf, id=2828, 569.12625pt x 554.07pt>
+<fig/mass_OS_2012.pdf, id=2945, 569.12625pt x 554.07pt>
 File: fig/mass_OS_2012.pdf Graphic file (type pdf)
 
 <use fig/mass_OS_2012.pdf>
-Package pdftex.def Info: fig/mass_OS_2012.pdf used on input line 426.
+Package pdftex.def Info: fig/mass_OS_2012.pdf used on input line 433.
 (pdftex.def)             Requested size: 174.76988pt x 170.14513pt.
 
-<fig/time_OS_2011.pdf, id=2829, 569.12625pt x 554.07pt>
+<fig/time_OS_2011.pdf, id=2946, 569.12625pt x 554.07pt>
 File: fig/time_OS_2011.pdf Graphic file (type pdf)
 
 <use fig/time_OS_2011.pdf>
-Package pdftex.def Info: fig/time_OS_2011.pdf used on input line 432.
+Package pdftex.def Info: fig/time_OS_2011.pdf used on input line 439.
 (pdftex.def)             Requested size: 174.76988pt x 170.14513pt.
 
-<fig/time_OS_2012.pdf, id=2830, 569.12625pt x 554.07pt>
+<fig/time_OS_2012.pdf, id=2947, 569.12625pt x 554.07pt>
 File: fig/time_OS_2012.pdf Graphic file (type pdf)
 
 <use fig/time_OS_2012.pdf>
-Package pdftex.def Info: fig/time_OS_2012.pdf used on input line 433.
+Package pdftex.def Info: fig/time_OS_2012.pdf used on input line 440.
 (pdftex.def)             Requested size: 174.76988pt x 170.14513pt.
 
-<fig/asymmetry_OS_2011.pdf, id=2831, 569.12625pt x 554.07pt>
+<fig/asymmetry_OS_2011.pdf, id=2948, 569.12625pt x 554.07pt>
 File: fig/asymmetry_OS_2011.pdf Graphic file (type pdf)
 
 <use fig/asymmetry_OS_2011.pdf>
-Package pdftex.def Info: fig/asymmetry_OS_2011.pdf used on input line 439.
+Package pdftex.def Info: fig/asymmetry_OS_2011.pdf used on input line 446.
 (pdftex.def)             Requested size: 174.76988pt x 170.14513pt.
 
-<fig/asymmetry_OS_2012.pdf, id=2832, 569.12625pt x 554.07pt>
+<fig/asymmetry_OS_2012.pdf, id=2949, 569.12625pt x 554.07pt>
 File: fig/asymmetry_OS_2012.pdf Graphic file (type pdf)
 
 <use fig/asymmetry_OS_2012.pdf>
-Package pdftex.def Info: fig/asymmetry_OS_2012.pdf used on input line 440.
+Package pdftex.def Info: fig/asymmetry_OS_2012.pdf used on input line 447.
 (pdftex.def)             Requested size: 174.76988pt x 170.14513pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
-[57<./fig/mass_OS_2011.pdf><./fig/mass_OS_2012.pdf><./fig/time_OS_2011.pdf><./fi
-g/time_OS_2012.pdf>] [58<./fig/asymmetry_OS_2011.pdf><./fig/asymmetry_OS_2012.pd
-f>] <fig/calibration_Bbar.pdf, id=3143, 569.12625pt x 408.52625pt>
+ [56] [57<./fig/mass_OS_2011.pdf><./fig/mass_OS_2012.pdf><./fig/time_OS_2011.pdf
+><./fig/time_OS_2012.pdf>] [58<./fig/asymmetry_OS_2011.pdf><./fig/asymmetry_OS_2
+012.pdf>]
+<fig/calibration_Bbar.pdf, id=3258, 569.12625pt x 408.52625pt>
 File: fig/calibration_Bbar.pdf Graphic file (type pdf)
 
 <use fig/calibration_Bbar.pdf>
-Package pdftex.def Info: fig/calibration_Bbar.pdf used on input line 488.
+Package pdftex.def Info: fig/calibration_Bbar.pdf used on input line 495.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
 
-<fig/calibration_B.pdf, id=3144, 569.12625pt x 408.52625pt>
+Underfull \hbox (badness 5403) in paragraph at lines 496--496
+[][][]\EU2/TexGyrePagella(0)/m/n/10 Ka-li-brie-rung der OS Stan-dard Kom-bi-na-
+ti-on mit Wahr-schein-lich-kei-ten
+ []
+
+<fig/calibration_B.pdf, id=3259, 569.12625pt x 408.52625pt>
 File: fig/calibration_B.pdf Graphic file (type pdf)
 
 <use fig/calibration_B.pdf>
-Package pdftex.def Info: fig/calibration_B.pdf used on input line 494.
+Package pdftex.def Info: fig/calibration_B.pdf used on input line 501.
 (pdftex.def)             Requested size: 291.28513pt x 209.09366pt.
-) [59<./fig/calibration_Bbar.pdf>] [60<./fig/calibration_B.pdf>] [61] (./zusamm
-enfassung.tex [62
 
+Underfull \hbox (badness 5403) in paragraph at lines 502--502
+[][][]\EU2/TexGyrePagella(0)/m/n/10 Ka-li-brie-rung der OS Stan-dard Kom-bi-na-
+ti-on mit Wahr-schein-lich-kei-ten
+ []
 
-
-
-]
+[59] [60<./fig/calibration_Bbar.pdf><./fig/calibration_B.pdf>]) [61] [62]
+(./zusammenfassung.tex
 Kapitel 7.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 4--118
+Underfull \hbox (badness 10000) in paragraph at lines 4--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--118
+Underfull \hbox (badness 10000) in paragraph at lines 4--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--118
+Underfull \hbox (badness 10000) in paragraph at lines 4--120
 
  []
 
-[63] [64]
+[63
+
+
+
+
+] [64]
 luaotfload | load : Lookup/name: "LatinModernMono" -> "lmmono10-regular.otf"
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LatinModernMono' (encoding: EU2).
@@ -3375,15 +3520,15 @@ Package microtype Info: Loading generic settings for font family
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'SM_teilchen' on input line 122.
+(biblatex)                at entry 'SM_teilchen' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'ckm-fitter' on input line 122.
+(biblatex)                at entry 'ckm-fitter' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'cern_scheme' on input line 122.
+(biblatex)                at entry 'cern_scheme' on input line 123.
 
 [65
 
@@ -3394,39 +3539,39 @@ Package biblatex Warning: Month out of range or not an integer
 ]
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'LHC_statistik' on input line 122.
+(biblatex)                at entry 'LHC_statistik' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'angle_plot' on input line 122.
+(biblatex)                at entry 'angle_plot' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'moore' on input line 122.
+(biblatex)                at entry 'moore' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'brunel' on input line 122.
+(biblatex)                at entry 'brunel' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'davinci' on input line 122.
+(biblatex)                at entry 'davinci' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'root' on input line 122.
+(biblatex)                at entry 'root' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'roofit' on input line 122.
+(biblatex)                at entry 'roofit' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'gauss' on input line 122.
+(biblatex)                at entry 'gauss' on input line 123.
 
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'boole' on input line 122.
+(biblatex)                at entry 'boole' on input line 123.
 
 [66] [67] (./dank.tex) [68] (./versicherung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--14
@@ -3434,52 +3579,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--14
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 16--129
+Underfull \hbox (badness 10000) in paragraph at lines 16--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--129
+Underfull \hbox (badness 10000) in paragraph at lines 16--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--129
+Underfull \hbox (badness 10000) in paragraph at lines 16--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--129
+Underfull \hbox (badness 10000) in paragraph at lines 16--130
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
 [69]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
  (./main.aux
 Package cleveref Info: loaded `german language definitions on input line 24.
 Package cleveref Info: loaded `german language definitions on input line 28.
 Package cleveref Info: loaded `german language definitions on input line 32.
  (./Einleitung.aux) (./SM.aux) (./lhcb.aux) (./FT.aux)
 (./data.aux) (./kalibration.aux) (./zusammenfassung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DFC7A86353A923B32C6FD46B23F6ACE2;3204.
 Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 40905 strings out of 494694
+ 40956 strings out of 494694
  244409,1648299 words of node,token memory allocated
- 2131 words of node memory still in use:
+ 2129 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 36 kern, 41 attribute, 172 glue_spec, 41 at
 tribute_list, 15 action, 1 write nodes
-   avail lists: 1:81,2:17664,3:1188,4:2688,5:527,6:5698,7:604,8:49,9:807,10:984,
-11:523,12:231
- 42745 multiletter control sequences out of 65536+600000
- 140 fonts using 42674355 bytes
- 70i,21n,60p,1991b,2644s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:203,2:18620,3:1193,4:2790,5:554,6:6021,7:629,8:49,9:899,10:984
+,11:520,12:231
+ 42772 multiletter control sequences out of 65536+600000
+ 145 fonts using 43504927 bytes
+ 70i,21n,60p,1860b,2644s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
 f></usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyr
 epagella-math.otf></usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-
@@ -3491,10 +3636,10 @@ ocal/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyrepagella-
 math.otf></usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre/texg
 yreheros-bold.otf><</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmmi10.pfb>
-Output written on main.pdf (75 pages, 3909014 bytes).
+Output written on main.pdf (75 pages, 4104478 bytes).
 
-PDF statistics: 3409 PDF objects out of 3580 (max. 8388607)
- 2219 compressed objects within 23 object streams
- 275 named destinations out of 1000 (max. 131072)
+PDF statistics: 3525 PDF objects out of 3580 (max. 8388607)
+ 2278 compressed objects within 23 object streams
+ 276 named destinations out of 1000 (max. 131072)
  361 words of extra memory for PDF output out of 10000 (max. 10000000)
 

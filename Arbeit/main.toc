@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {4.3}Same Side Tagging}{25}{section.4.3}
 \contentsline {section}{\numberline {4.4}Vorgehen bei der Tagging Kalibrierung}{27}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Daten}{27}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Monte-Carlo}{28}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Monte-Carlo}{29}{subsection.4.4.2}
 \contentsline {chapter}{\numberline {5}Der Zerfallskanal $\mathbf {{\ensuremath {{\ensuremath {\ensuremath {B}\xspace }}\xspace ^0}}\xspace \rightarrow {\ensuremath {{\ensuremath {\ensuremath {D}\xspace }}\xspace ^-}}\xspace {\ensuremath {{\ensuremath {\ensuremath {\mitpi }\xspace }}\xspace ^+}}\xspace }$ und dessen Selektion}{31}{chapter.5}
 \contentsline {section}{\numberline {5.1}Rekonstruktion des Kanals ${\ensuremath {{\ensuremath {\ensuremath {B}\xspace }}\xspace ^0}}\xspace \rightarrow {\ensuremath {{\ensuremath {\ensuremath {D}\xspace }}\xspace ^-}}\xspace (\rightarrow {\ensuremath {{\ensuremath {\ensuremath {K}\xspace }}\xspace ^+}}\xspace {\ensuremath {{\ensuremath {\ensuremath {\mitpi }\xspace }}\xspace ^-}}\xspace {\ensuremath {{\ensuremath {\ensuremath {\mitpi }\xspace }}\xspace ^-}}\xspace ){\ensuremath {{\ensuremath {\ensuremath {\mitpi }\xspace }}\xspace ^+}}\xspace $}{31}{section.5.1}
 \contentsline {section}{\numberline {5.2}Selektion}{32}{section.5.2}
@@ -35,15 +35,15 @@
 \contentsline {chapter}{\numberline {6}Kalibrierung verschiedener Tagger}{39}{chapter.6}
 \contentsline {section}{\numberline {6.1}Auswahl der Tagger}{39}{section.6.1}
 \contentsline {section}{\numberline {6.2}Kalibrierung der OS Tagger}{39}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Standard OS Kombination}{40}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Der OS Charm Tagger}{43}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.1}Standard OS Kombination}{41}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Der OS Charm Tagger}{44}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Der OS Kaon nnet Tagger}{45}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Kalibrierung der SS Tagger}{47}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Der SS Pion Tagger}{47}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Der SS Pion BDT Tagger}{48}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Der SS Proton Tagger}{49}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}Diskussion der Ergebnisse der Kalibrierung}{50}{section.6.4}
-\contentsline {section}{\numberline {6.5}Korrelation zwischen Taggern der Same Side}{51}{section.6.5}
+\contentsline {section}{\numberline {6.4}Diskussion der Ergebnisse der Kalibrierung}{51}{section.6.4}
+\contentsline {section}{\numberline {6.5}Korrelation zwischen Taggern der Same Side}{52}{section.6.5}
 \contentsline {section}{\numberline {6.6}Messung von ${\ensuremath {\mitDelta m_{{\ensuremath {\ensuremath {d}\xspace }}\xspace }}}\xspace $}{56}{section.6.6}
 \contentsline {section}{\numberline {6.7}Alternative Kalibrierung der OS Kombination}{59}{section.6.7}
 \contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{63}{chapter.7}
