@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.7.21)  29 SEP 2014 14:19
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)  (format=lualatex 2014.7.21)  29 SEP 2014 14:21
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -336,7 +336,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.031 seconds
+luaotfload | main : fontloader loaded in 0.028 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -3623,7 +3623,7 @@ tribute_list, 15 action, 1 write nodes
    avail lists: 1:203,2:18620,3:1193,4:2790,5:554,6:6021,7:629,8:49,9:899,10:984
 ,11:520,12:231
  42772 multiletter control sequences out of 65536+600000
- 145 fonts using 43504715 bytes
+ 145 fonts using 43505139 bytes
  70i,21n,60p,1860b,2644s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2014/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
 f></usr/local/texlive/2014/texmf-dist/fonts/opentype/public/tex-gyre-math/texgyr
